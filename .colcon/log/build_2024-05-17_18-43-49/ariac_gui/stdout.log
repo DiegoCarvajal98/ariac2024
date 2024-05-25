@@ -1,0 +1,59 @@
+running develop
+running egg_info
+creating ariac_gui.egg-info
+writing ariac_gui.egg-info/PKG-INFO
+writing dependency_links to ariac_gui.egg-info/dependency_links.txt
+writing entry points to ariac_gui.egg-info/entry_points.txt
+writing requirements to ariac_gui.egg-info/requires.txt
+writing top-level names to ariac_gui.egg-info/top_level.txt
+writing manifest file 'ariac_gui.egg-info/SOURCES.txt'
+reading manifest file 'ariac_gui.egg-info/SOURCES.txt'
+writing manifest file 'ariac_gui.egg-info/SOURCES.txt'
+running build_ext
+Creating /overlay_ws/install/ariac_gui/lib/python3.10/site-packages/ariac-gui.egg-link (link to .)
+Installing trial_generator script to /overlay_ws/install/ariac_gui/lib/ariac_gui
+
+Installed /overlay_ws/build/ariac_gui
+running symlink_data
+creating /overlay_ws/install/ariac_gui/share/ament_index
+creating /overlay_ws/install/ariac_gui/share/ament_index/resource_index
+creating /overlay_ws/install/ariac_gui/share/ament_index/resource_index/packages
+symbolically linking /overlay_ws/build/ariac_gui/resource/ariac_gui -> /overlay_ws/install/ariac_gui/share/ament_index/resource_index/packages
+creating /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/plus.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/assembly_station.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/agv.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/tray.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/light_icon.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/dark_icon.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/greensensor.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/greenpump.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/greenregulator.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/greenbattery.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/redsensor.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/redpump.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/redregulator.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/redbattery.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/purplesensor.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/purplepump.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/purpleregulator.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/purplebattery.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/bluesensor.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/bluepump.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/blueregulator.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/bluebattery.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/orangesensor.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/orangepump.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/orangeregulator.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/orangebattery.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/id_00.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/id_01.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/id_02.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/id_03.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/id_04.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/id_05.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/id_06.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/id_07.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/id_08.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/resource/id_09.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+symbolically linking /overlay_ws/build/ariac_gui/package.xml -> /overlay_ws/install/ariac_gui/share/ariac_gui

@@ -1,0 +1,48 @@
+[0.007s] Invoking command in '/overlay_ws/build/ariac_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /overlay_ws/src/ARIAC/ariac_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/overlay_ws/install/ariac_moveit_config
+[0.059s] -- The C compiler identification is GNU 11.4.0
+[0.116s] -- The CXX compiler identification is GNU 11.4.0
+[0.124s] -- Detecting C compiler ABI info
+[0.195s] -- Detecting C compiler ABI info - done
+[0.203s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.203s] -- Detecting C compile features
+[0.203s] -- Detecting C compile features - done
+[0.207s] -- Detecting CXX compiler ABI info
+[0.289s] -- Detecting CXX compiler ABI info - done
+[0.298s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.298s] -- Detecting CXX compile features
+[0.298s] -- Detecting CXX compile features - done
+[0.302s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.469s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.543s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.657s] -- Configuring done
+[0.660s] -- Generating done
+[0.661s] -- Build files have been written to: /overlay_ws/build/ariac_moveit_config
+[0.665s] Invoked command in '/overlay_ws/build/ariac_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake /overlay_ws/src/ARIAC/ariac_moveit_config -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/overlay_ws/install/ariac_moveit_config
+[0.666s] Invoking command in '/overlay_ws/build/ariac_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /overlay_ws/build/ariac_moveit_config -- -j12 -l12
+[0.703s] Invoked command in '/overlay_ws/build/ariac_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --build /overlay_ws/build/ariac_moveit_config -- -j12 -l12
+[0.730s] Invoking command in '/overlay_ws/build/ariac_moveit_config': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /overlay_ws/build/ariac_moveit_config
+[0.739s] -- Install configuration: ""
+[0.740s] -- Execute custom install script
+[0.741s] -- Symlinking: /overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/config/ariac_robots.srdf
+[0.752s] -- Symlinking: /overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/config/joint_limits.yaml
+[0.764s] -- Symlinking: /overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/config/kinematics.yaml
+[0.774s] -- Symlinking: /overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/config/moveit_controllers.yaml
+[0.784s] -- Symlinking: /overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/config/ompl_planning.yaml
+[0.795s] -- Symlinking: /overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/launch/ariac_robots_moveit.launch.py
+[0.803s] -- Symlinking: /overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/rviz/moveit.rviz
+[0.811s] -- Symlinking: /overlay_ws/install/ariac_moveit_config/share/ament_index/resource_index/package_run_dependencies/ariac_moveit_config
+[0.819s] -- Symlinking: /overlay_ws/install/ariac_moveit_config/share/ament_index/resource_index/parent_prefix_path/ariac_moveit_config
+[0.829s] -- Symlinking: /overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/environment/ament_prefix_path.sh
+[0.839s] -- Symlinking: /overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/environment/ament_prefix_path.dsv
+[0.848s] -- Symlinking: /overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/environment/path.sh
+[0.858s] -- Symlinking: /overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/environment/path.dsv
+[0.866s] -- Symlinking: /overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/local_setup.bash
+[0.874s] -- Symlinking: /overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/local_setup.sh
+[0.882s] -- Symlinking: /overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/local_setup.zsh
+[0.889s] -- Symlinking: /overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/local_setup.dsv
+[0.897s] -- Symlinking: /overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/package.dsv
+[0.905s] -- Symlinking: /overlay_ws/install/ariac_moveit_config/share/ament_index/resource_index/packages/ariac_moveit_config
+[0.912s] -- Symlinking: /overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/cmake/ariac_moveit_configConfig.cmake
+[0.920s] -- Symlinking: /overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/cmake/ariac_moveit_configConfig-version.cmake
+[0.931s] -- Symlinking: /overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/package.xml
+[0.942s] Invoked command in '/overlay_ws/build/ariac_moveit_config' returned '0': CMAKE_PREFIX_PATH=/opt/ros/iron /usr/bin/cmake --install /overlay_ws/build/ariac_moveit_config

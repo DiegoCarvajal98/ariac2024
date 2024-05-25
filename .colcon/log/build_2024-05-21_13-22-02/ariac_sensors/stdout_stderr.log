@@ -1,0 +1,60 @@
+[35m[1mConsolidate compiler generated dependencies of target AriacLogicalCameraPlugin[0m
+[35m[1mConsolidate compiler generated dependencies of target AriacRayPlugin[0m
+[35m[1mConsolidate compiler generated dependencies of target AriacCameraPlugin[0m
+[ 33%] Built target AriacLogicalCameraPlugin
+[ 66%] Built target AriacRayPlugin
+[100%] Built target AriacCameraPlugin
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/environment/library_path.sh
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/environment/library_path.dsv
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ament_index/resource_index/package_run_dependencies/ariac_sensors
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ament_index/resource_index/parent_prefix_path/ariac_sensors
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/environment/path.sh
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/environment/path.dsv
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/local_setup.bash
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/local_setup.sh
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/local_setup.zsh
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/local_setup.dsv
+-- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors/package.dsv
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ament_index/resource_index/packages/ariac_sensors
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/cmake/ament_cmake_export_libraries-extras.cmake
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/cmake/ariac_sensorsConfig.cmake
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/cmake/ariac_sensorsConfig-version.cmake
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/package.xml
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/include/ariac_sensors/ariac_camera_plugin.hpp
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/include/ariac_sensors/ariac_logical_camera_plugin.hpp
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/include/ariac_sensors/ariac_ray_plugin.hpp
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/lib/libAriacRayPlugin.so
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/lib/libAriacCameraPlugin.so
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/lib/libAriacLogicalCameraPlugin.so
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/advanced_logical_camera/materials/textures/camera.png
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/advanced_logical_camera/meshes/camera.dae
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/advanced_logical_camera/model.config
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/advanced_logical_camera/model.sdf
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/agv_tray_sensor/model.config
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/agv_tray_sensor/model.sdf
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/assembly_station_sensor/model.config
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/assembly_station_sensor/model.sdf
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/basic_logical_camera/materials/textures/camera.png
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/basic_logical_camera/meshes/camera.dae
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/basic_logical_camera/model.config
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/basic_logical_camera/model.sdf
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/break_beam/meshes/break_beam.dae
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/break_beam/model.config
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/break_beam/model.sdf
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/laser_profiler/model.config
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/laser_profiler/model.sdf
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/lidar/meshes/SR4000.stl
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/lidar/model.config
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/lidar/model.sdf
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/proximity/model.config
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/proximity/model.sdf
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/rgb_camera/meshes/SR4000.stl
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/rgb_camera/model.config
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/rgb_camera/model.sdf
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/rgbd_camera/meshes/SR4000.stl
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/rgbd_camera/model.config
+-- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/rgbd_camera/model.sdf

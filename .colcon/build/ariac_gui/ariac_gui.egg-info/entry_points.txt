@@ -1,0 +1,3 @@
+[console_scripts]
+trial_generator = ariac_gui.trial_generator_node:main
+

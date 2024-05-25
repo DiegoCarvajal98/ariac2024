@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ariac_msgs/srv/GetPreAssemblyPoses_Request",
+      "fields": [
+        {
+          "name": "order_id",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "ariac_msgs/srv/GetPreAssemblyPoses_Request",
+      "hash_string": "RIHS01_4bc467d0086d51a8e3d8b313f0594a00de7804dce4e9acb8d7c7b7ade27ffa4f"
+    }
+  ]
+}

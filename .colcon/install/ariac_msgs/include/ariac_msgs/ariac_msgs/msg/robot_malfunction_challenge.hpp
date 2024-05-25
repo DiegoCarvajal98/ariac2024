@@ -1,0 +1,1 @@
+/overlay_ws/build/ariac_msgs/rosidl_generator_cpp/ariac_msgs/msg/robot_malfunction_challenge.hpp

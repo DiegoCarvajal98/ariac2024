@@ -1,0 +1,1 @@
+/overlay_ws/src/ARIAC/ariac_plugins/include/ariac_plugins/gripper_color_plugin.hpp

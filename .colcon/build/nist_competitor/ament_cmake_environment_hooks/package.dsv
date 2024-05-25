@@ -1,0 +1,4 @@
+source;share/nist_competitor/local_setup.bash
+source;share/nist_competitor/local_setup.dsv
+source;share/nist_competitor/local_setup.sh
+source;share/nist_competitor/local_setup.zsh

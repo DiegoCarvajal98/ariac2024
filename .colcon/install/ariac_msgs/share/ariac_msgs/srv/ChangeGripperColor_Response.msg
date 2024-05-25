@@ -1,0 +1,1 @@
+/overlay_ws/build/ariac_msgs/rosidl_cmake/srv/ChangeGripperColor_Response.msg

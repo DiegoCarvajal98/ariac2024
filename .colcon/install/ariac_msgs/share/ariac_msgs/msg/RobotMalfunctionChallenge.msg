@@ -1,0 +1,1 @@
+/overlay_ws/src/ARIAC/ariac_msgs/msg/RobotMalfunctionChallenge.msg

@@ -1,0 +1,1 @@
+/overlay_ws/build/ariac_msgs/rosidl_generator_c/ariac_msgs/srv/detail/change_gripper_color__struct.h

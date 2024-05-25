@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ariac_msgs/msg/AGVStatus.msg
+// generated code does not contain a copyright notice
+
+
+module ariac_msgs {
+  module msg {
+    module AGVStatus_Constants {
+      const uint8 KITTING = 0;
+      const uint8 ASSEMBLY_FRONT = 1;
+      const uint8 ASSEMBLY_BACK = 2;
+      const uint8 WAREHOUSE = 3;
+      const uint8 UNKNOWN = 99;
+    };
+    struct AGVStatus {
+      @verbatim (language="comment", text=
+        "KITTING, ASSEMBLY_FRONT, ASSEMBLY_BACK, WAREHOUSE, UNKNOWN")
+      int8 location;
+
+      double position;
+
+      double velocity;
+    };
+  };
+};

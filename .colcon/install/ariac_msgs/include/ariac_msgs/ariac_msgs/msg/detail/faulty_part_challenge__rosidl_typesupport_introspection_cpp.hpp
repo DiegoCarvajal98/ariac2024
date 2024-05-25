@@ -1,0 +1,1 @@
+/overlay_ws/build/ariac_msgs/rosidl_typesupport_introspection_cpp/ariac_msgs/msg/detail/faulty_part_challenge__rosidl_typesupport_introspection_cpp.hpp

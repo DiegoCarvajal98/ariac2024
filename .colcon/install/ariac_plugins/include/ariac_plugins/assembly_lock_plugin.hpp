@@ -1,0 +1,1 @@
+/overlay_ws/src/ARIAC/ariac_plugins/include/ariac_plugins/assembly_lock_plugin.hpp

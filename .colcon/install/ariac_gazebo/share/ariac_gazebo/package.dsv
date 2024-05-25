@@ -1,0 +1,11 @@
+source;share/ariac_gazebo/hook/cmake_prefix_path.ps1
+source;share/ariac_gazebo/hook/cmake_prefix_path.dsv
+source;share/ariac_gazebo/hook/cmake_prefix_path.sh
+source;share/ariac_gazebo/hook/pythonpath.ps1
+source;share/ariac_gazebo/hook/pythonpath.dsv
+source;share/ariac_gazebo/hook/pythonpath.sh
+source;share/ariac_gazebo/local_setup.bash
+source;share/ariac_gazebo/local_setup.dsv
+source;share/ariac_gazebo/local_setup.ps1
+source;share/ariac_gazebo/local_setup.sh
+source;share/ariac_gazebo/local_setup.zsh

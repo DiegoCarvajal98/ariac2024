@@ -1,0 +1,2 @@
+# Hashes of file build rules.
+49eb1a86e744e50dd10ce17e4fd01d1e CMakeFiles/my_competitor_pkg_uninstall

@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ariac_msgs/msg/AssemblyState.msg
+// generated code does not contain a copyright notice
+
+
+module ariac_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Assembly state message" "\n"
+      "This structure contains the state of each assembly slot for a given model")
+    struct AssemblyState {
+      boolean battery_attached;
+
+      boolean pump_attached;
+
+      boolean regulator_attached;
+
+      boolean sensor_attached;
+    };
+  };
+};

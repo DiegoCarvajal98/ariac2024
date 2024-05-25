@@ -1,0 +1,1 @@
+/overlay_ws/src/ARIAC/ariac_sensors/include/ariac_sensors/ariac_logical_camera_plugin.hpp

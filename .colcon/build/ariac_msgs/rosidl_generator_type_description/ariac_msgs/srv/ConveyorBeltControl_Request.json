@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ariac_msgs/srv/ConveyorBeltControl_Request",
+      "fields": [
+        {
+          "name": "power",
+          "type": {
+            "type_id": 11,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "ariac_msgs/srv/ConveyorBeltControl_Request",
+      "hash_string": "RIHS01_9bee244800602eb1d04c6c601b10b361868571ae8efafd2a0bb4b7bcd4a37027"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+Invoking command in '/overlay_ws/build/ariac_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --build /overlay_ws/build/ariac_gazebo -- -j12 -l12
+Invoked command in '/overlay_ws/build/ariac_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --build /overlay_ws/build/ariac_gazebo -- -j12 -l12
+Invoking command in '/overlay_ws/build/ariac_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --install /overlay_ws/build/ariac_gazebo
+Invoked command in '/overlay_ws/build/ariac_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --install /overlay_ws/build/ariac_gazebo

@@ -1,0 +1,1 @@
+/overlay_ws/src/ARIAC/ariac_gazebo/nodes/environment_startup_node.py

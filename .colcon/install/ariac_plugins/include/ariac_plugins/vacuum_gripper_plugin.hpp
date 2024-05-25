@@ -1,0 +1,1 @@
+/overlay_ws/src/ARIAC/ariac_plugins/include/ariac_plugins/vacuum_gripper_plugin.hpp

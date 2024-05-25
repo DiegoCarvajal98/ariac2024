@@ -1,0 +1,9 @@
+/overlay_ws/build/my_competitor_pkg/CMakeFiles/uninstall.dir
+/overlay_ws/build/my_competitor_pkg/CMakeFiles/my_competitor_pkg_uninstall.dir
+/overlay_ws/build/my_competitor_pkg/CMakeFiles/test.dir
+/overlay_ws/build/my_competitor_pkg/CMakeFiles/edit_cache.dir
+/overlay_ws/build/my_competitor_pkg/CMakeFiles/rebuild_cache.dir
+/overlay_ws/build/my_competitor_pkg/CMakeFiles/list_install_components.dir
+/overlay_ws/build/my_competitor_pkg/CMakeFiles/install.dir
+/overlay_ws/build/my_competitor_pkg/CMakeFiles/install/local.dir
+/overlay_ws/build/my_competitor_pkg/CMakeFiles/install/strip.dir

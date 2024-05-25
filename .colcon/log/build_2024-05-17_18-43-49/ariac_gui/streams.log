@@ -1,0 +1,63 @@
+[1.077s] Invoking command in '/overlay_ws/build/ariac_gui': AMENT_PREFIX_PATH=/overlay_ws/install/ariac_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/overlay_ws/build/ariac_gui/prefix_override:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /overlay_ws/build/ariac_gui/build --no-deps symlink_data
+[1.363s] running develop
+[1.368s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.368s]   warnings.warn(
+[1.538s] running egg_info
+[1.539s] creating ariac_gui.egg-info
+[1.539s] writing ariac_gui.egg-info/PKG-INFO
+[1.539s] writing dependency_links to ariac_gui.egg-info/dependency_links.txt
+[1.539s] writing entry points to ariac_gui.egg-info/entry_points.txt
+[1.539s] writing requirements to ariac_gui.egg-info/requires.txt
+[1.539s] writing top-level names to ariac_gui.egg-info/top_level.txt
+[1.540s] writing manifest file 'ariac_gui.egg-info/SOURCES.txt'
+[1.542s] reading manifest file 'ariac_gui.egg-info/SOURCES.txt'
+[1.543s] writing manifest file 'ariac_gui.egg-info/SOURCES.txt'
+[1.544s] running build_ext
+[1.544s] Creating /overlay_ws/install/ariac_gui/lib/python3.10/site-packages/ariac-gui.egg-link (link to .)
+[1.545s] Installing trial_generator script to /overlay_ws/install/ariac_gui/lib/ariac_gui
+[1.545s] 
+[1.545s] Installed /overlay_ws/build/ariac_gui
+[1.546s] running symlink_data
+[1.546s] creating /overlay_ws/install/ariac_gui/share/ament_index
+[1.546s] creating /overlay_ws/install/ariac_gui/share/ament_index/resource_index
+[1.546s] creating /overlay_ws/install/ariac_gui/share/ament_index/resource_index/packages
+[1.546s] symbolically linking /overlay_ws/build/ariac_gui/resource/ariac_gui -> /overlay_ws/install/ariac_gui/share/ament_index/resource_index/packages
+[1.546s] creating /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.547s] symbolically linking /overlay_ws/build/ariac_gui/resource/plus.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.547s] symbolically linking /overlay_ws/build/ariac_gui/resource/assembly_station.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.547s] symbolically linking /overlay_ws/build/ariac_gui/resource/agv.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.547s] symbolically linking /overlay_ws/build/ariac_gui/resource/tray.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.547s] symbolically linking /overlay_ws/build/ariac_gui/resource/light_icon.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.547s] symbolically linking /overlay_ws/build/ariac_gui/resource/dark_icon.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.547s] symbolically linking /overlay_ws/build/ariac_gui/resource/greensensor.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.547s] symbolically linking /overlay_ws/build/ariac_gui/resource/greenpump.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.548s] symbolically linking /overlay_ws/build/ariac_gui/resource/greenregulator.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.548s] symbolically linking /overlay_ws/build/ariac_gui/resource/greenbattery.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.548s] symbolically linking /overlay_ws/build/ariac_gui/resource/redsensor.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.548s] symbolically linking /overlay_ws/build/ariac_gui/resource/redpump.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.548s] symbolically linking /overlay_ws/build/ariac_gui/resource/redregulator.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.548s] symbolically linking /overlay_ws/build/ariac_gui/resource/redbattery.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.548s] symbolically linking /overlay_ws/build/ariac_gui/resource/purplesensor.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.548s] symbolically linking /overlay_ws/build/ariac_gui/resource/purplepump.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.548s] symbolically linking /overlay_ws/build/ariac_gui/resource/purpleregulator.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.548s] symbolically linking /overlay_ws/build/ariac_gui/resource/purplebattery.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.549s] symbolically linking /overlay_ws/build/ariac_gui/resource/bluesensor.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.549s] symbolically linking /overlay_ws/build/ariac_gui/resource/bluepump.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.549s] symbolically linking /overlay_ws/build/ariac_gui/resource/blueregulator.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.549s] symbolically linking /overlay_ws/build/ariac_gui/resource/bluebattery.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.549s] symbolically linking /overlay_ws/build/ariac_gui/resource/orangesensor.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.549s] symbolically linking /overlay_ws/build/ariac_gui/resource/orangepump.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.549s] symbolically linking /overlay_ws/build/ariac_gui/resource/orangeregulator.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.549s] symbolically linking /overlay_ws/build/ariac_gui/resource/orangebattery.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.549s] symbolically linking /overlay_ws/build/ariac_gui/resource/id_00.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.549s] symbolically linking /overlay_ws/build/ariac_gui/resource/id_01.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.549s] symbolically linking /overlay_ws/build/ariac_gui/resource/id_02.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.549s] symbolically linking /overlay_ws/build/ariac_gui/resource/id_03.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.549s] symbolically linking /overlay_ws/build/ariac_gui/resource/id_04.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.550s] symbolically linking /overlay_ws/build/ariac_gui/resource/id_05.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.550s] symbolically linking /overlay_ws/build/ariac_gui/resource/id_06.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.550s] symbolically linking /overlay_ws/build/ariac_gui/resource/id_07.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.550s] symbolically linking /overlay_ws/build/ariac_gui/resource/id_08.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.550s] symbolically linking /overlay_ws/build/ariac_gui/resource/id_09.png -> /overlay_ws/install/ariac_gui/share/ariac_gui/resource
+[1.550s] symbolically linking /overlay_ws/build/ariac_gui/package.xml -> /overlay_ws/install/ariac_gui/share/ariac_gui
+[1.572s] Invoked command in '/overlay_ws/build/ariac_gui' returned '0': AMENT_PREFIX_PATH=/overlay_ws/install/ariac_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/overlay_ws/build/ariac_gui/prefix_override:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /overlay_ws/build/ariac_gui/build --no-deps symlink_data

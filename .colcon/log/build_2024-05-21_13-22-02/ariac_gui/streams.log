@@ -1,0 +1,19 @@
+[1.013s] Invoking command in '/overlay_ws/build/ariac_gui': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/build/ariac_gui/prefix_override:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /overlay_ws/build/ariac_gui/build --no-deps symlink_data
+[1.309s] running develop
+[1.313s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[1.313s]   warnings.warn(
+[1.497s] running egg_info
+[1.497s] writing ariac_gui.egg-info/PKG-INFO
+[1.498s] writing dependency_links to ariac_gui.egg-info/dependency_links.txt
+[1.498s] writing entry points to ariac_gui.egg-info/entry_points.txt
+[1.498s] writing requirements to ariac_gui.egg-info/requires.txt
+[1.498s] writing top-level names to ariac_gui.egg-info/top_level.txt
+[1.501s] reading manifest file 'ariac_gui.egg-info/SOURCES.txt'
+[1.503s] writing manifest file 'ariac_gui.egg-info/SOURCES.txt'
+[1.505s] running build_ext
+[1.505s] Creating /overlay_ws/install/ariac_gui/lib/python3.10/site-packages/ariac-gui.egg-link (link to .)
+[1.506s] Installing trial_generator script to /overlay_ws/install/ariac_gui/lib/ariac_gui
+[1.506s] 
+[1.506s] Installed /overlay_ws/build/ariac_gui
+[1.506s] running symlink_data
+[1.534s] Invoked command in '/overlay_ws/build/ariac_gui' returned '0': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/build/ariac_gui/prefix_override:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /overlay_ws/build/ariac_gui/build --no-deps symlink_data

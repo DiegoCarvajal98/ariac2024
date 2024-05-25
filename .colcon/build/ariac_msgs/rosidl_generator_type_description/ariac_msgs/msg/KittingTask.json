@@ -1,0 +1,115 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ariac_msgs/msg/KittingTask",
+      "fields": [
+        {
+          "name": "agv_number",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "tray_id",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "destination",
+          "type": {
+            "type_id": 3,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "parts",
+          "type": {
+            "type_id": 145,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ariac_msgs/msg/KittingPart"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "ariac_msgs/msg/KittingPart",
+        "fields": [
+          {
+            "name": "part",
+            "type": {
+              "type_id": 1,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": "ariac_msgs/msg/Part"
+            },
+            "default_value": ""
+          },
+          {
+            "name": "quadrant",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      },
+      {
+        "type_name": "ariac_msgs/msg/Part",
+        "fields": [
+          {
+            "name": "color",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "type",
+            "type": {
+              "type_id": 3,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "ariac_msgs/msg/KittingTask",
+      "hash_string": "RIHS01_7a5fab13f1aee7916b136f4b92a1f5f4ecd47eafdaeaf78e7e27f30ba886d732"
+    },
+    {
+      "type_name": "ariac_msgs/msg/KittingPart",
+      "hash_string": "RIHS01_06844009b84bed4281f74741ede1f53594283d4425d4be1fc24301dae427d8b5"
+    },
+    {
+      "type_name": "ariac_msgs/msg/Part",
+      "hash_string": "RIHS01_1408bd148083ef91e507b2565daee2c809aeac78b472468aa259241fe0068604"
+    }
+  ]
+}

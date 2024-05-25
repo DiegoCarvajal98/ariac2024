@@ -1,0 +1,15 @@
+/overlay_ws/install/my_competitor_pkg/share/ament_index/resource_index/package_run_dependencies/my_competitor_pkg
+/overlay_ws/install/my_competitor_pkg/share/ament_index/resource_index/parent_prefix_path/my_competitor_pkg
+/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/environment/ament_prefix_path.sh
+/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/environment/ament_prefix_path.dsv
+/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/environment/path.sh
+/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/environment/path.dsv
+/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/local_setup.bash
+/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/local_setup.sh
+/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/local_setup.zsh
+/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/local_setup.dsv
+/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/package.dsv
+/overlay_ws/install/my_competitor_pkg/share/ament_index/resource_index/packages/my_competitor_pkg
+/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/cmake/my_competitor_pkgConfig.cmake
+/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/cmake/my_competitor_pkgConfig-version.cmake
+/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/package.xml

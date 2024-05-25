@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ariac_msgs/srv/MoveAGV_Request",
+      "fields": [
+        {
+          "name": "location",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "ariac_msgs/srv/MoveAGV_Request",
+      "hash_string": "RIHS01_71bbdfa7e40a1775eb8737b15e8ae62ec1a907a9f1f47192fef881c1ac56a499"
+    }
+  ]
+}

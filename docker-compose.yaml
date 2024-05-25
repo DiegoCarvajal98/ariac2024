@@ -1,0 +1,59 @@
+services:
+  # Base image containing dependencies.
+  base:
+    image: ariac_control:base
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      args:
+        ROS_DISTRO: iron
+      target: base
+    # Interactive shell
+    stdin_open: true
+    tty: true
+    # Networking and IPC for ROS 2
+    network_mode: host
+    ipc: host
+    # Needed to display graphical applications
+    privileged: true
+    environment:
+      # Allows graphical programs in the container.
+      - DISPLAY=${DISPLAY}
+      - QT_X11_NO_MITSHM=1
+      - NVIDIA_DRIVER_CAPABILITIES=all
+    volumes:
+      # Allows graphical programs in the container.
+      - /tmp/.X11-unix:/tmp/.X11-unix:rw
+      - ${XAUTHORITY:-$HOME/.Xauthority}:/root/.Xauthority
+      - /dev:/dev
+ 
+  # Overlay image containing the example source code.
+  overlay:
+    extends: base
+    image: ariac_control:overlay
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: overlay
+
+  dev:
+    extends: overlay
+    image: ariac_control:dev
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+      target: dev
+      args:
+        - USER_UID=${USER_UID:-1000}
+        - USER_GID=${USER_UID:-1000}
+        # Set correct USERNAME
+        - USERNAME=${USERNAME:-robotics}
+    volumes:
+      # Mount colcon build artifacts for faster rebuilds
+      - ./.colcon/build/:/overlay_ws/build/:rw
+      - ./.colcon/install/:/overlay_ws/install/:rw
+      - ./.colcon/log/:/overlay_ws/log/:rw
+      - ./ARIAC:/overlay_ws/src/ARIAC/:rw
+      - ./nist_competitor:/overlay_ws/src/nist_competitor/:rw
+    user: ${USERNAME:-robotics}
+    command: sleep infinity

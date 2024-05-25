@@ -1,0 +1,84 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 21.0.6 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.6.0 (/opt/ros/iron/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found moveit_ros_planning_interface: 2.8.0 (/opt/ros/iron/share/moveit_ros_planning_interface/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+-- Found parameter_traits: 0.3.8 (/opt/ros/iron/share/parameter_traits/cmake)
+-- Found Eigen3: TRUE (found version "3.4.0") 
+-- Found rclcpp_lifecycle: 21.0.6 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+-- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+-- Found ariac_msgs: 2024.4.1 (/overlay_ws/install/ariac_msgs/share/ariac_msgs/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /overlay_ws/build/nist_competitor
+[ 25%] [32mBuilding CXX object CMakeFiles/nist_competitor.dir/src/nist_competitor.cpp.o[0m
+[ 50%] [32m[1mLinking CXX shared library libnist_competitor.so[0m
+[ 50%] Built target nist_competitor
+[ 75%] [32mBuilding CXX object CMakeFiles/competitor.dir/src/competitor.cpp.o[0m
+[100%] [32m[1mLinking CXX executable competitor[0m
+[100%] Built target competitor
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /overlay_ws/install/nist_competitor/lib/nist_competitor/competitor
+-- Symlinking: /overlay_ws/install/nist_competitor/lib/libnist_competitor.so
+-- Symlinking: /overlay_ws/install/nist_competitor/include/nist_competitor/nist_competitor.hpp
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/config/sensors.yaml
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/launch/competition.launch.py
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/launch/competitor.launch.py
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/meshes/assembly_insert.stl
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/meshes/assembly_station.stl
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/meshes/battery.stl
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/meshes/bin.stl
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/meshes/conveyor.stl
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/meshes/kit_tray.stl
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/meshes/kit_tray_table.stl
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/meshes/pump.stl
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/meshes/regulator.stl
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/meshes/sensor.stl
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/rviz/nist_competitor.rviz
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/environment/library_path.sh
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/environment/library_path.dsv
+-- Symlinking: /overlay_ws/install/nist_competitor/share/ament_index/resource_index/package_run_dependencies/nist_competitor
+-- Symlinking: /overlay_ws/install/nist_competitor/share/ament_index/resource_index/parent_prefix_path/nist_competitor
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/environment/ament_prefix_path.sh
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/environment/ament_prefix_path.dsv
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/environment/path.sh
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/environment/path.dsv
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/local_setup.bash
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/local_setup.sh
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/local_setup.zsh
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/local_setup.dsv
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/package.dsv
+-- Symlinking: /overlay_ws/install/nist_competitor/share/ament_index/resource_index/packages/nist_competitor
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/cmake/nist_competitorConfig.cmake
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/cmake/nist_competitorConfig-version.cmake
+-- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/package.xml

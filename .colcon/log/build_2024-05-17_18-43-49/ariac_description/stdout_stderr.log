@@ -1,0 +1,64 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /overlay_ws/build/ariac_description
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/config/ceiling_robot_initial_positions.yaml
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/config/floor_robot_initial_positions.yaml
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/config/robot_controllers.yaml
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/meshes/agv/contact_sensor.stl
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/meshes/agv/robot.dae
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/meshes/agv/robot.png
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/meshes/agv/tray.stl
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/meshes/gantry/ARIAC_GRN_Logo.png
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/meshes/gantry/Metal024_2K_Color.jpg
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/meshes/gantry/NIST_Green_bake.png
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/meshes/gantry/gantry_tray.dae
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/meshes/gantry/green_metal_rust_diff_4k.jpg
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/meshes/gantry/rusty_metal_02_diff_2k.jpg
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/meshes/gantry/torso_base.dae
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/meshes/gantry/torso_fixed_normals.dae
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/meshes/vacuum_gripper/camera.stl
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/meshes/vacuum_gripper/camera_mount.stl
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/meshes/vacuum_gripper/vacuum_gripper.stl
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/urdf/agv/agv.ros2_control.xacro
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/urdf/agv/agv_macro.xacro
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/urdf/ariac_robots/ariac_robots.urdf.xacro
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/urdf/ceiling_robot/ceiling_robot_macro.xacro
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/urdf/ceiling_robot/gantry.ros2_control.xacro
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/urdf/ceiling_robot/gantry_macro.xacro
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/urdf/floor_robot/floor_robot_macro.xacro
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/urdf/floor_robot/linear_actuator.ros2_control.xacro
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/urdf/floor_robot/linear_actuator_macro.xacro
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/urdf/vacuum_gripper/vacuum_gripper_macro.xacro
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/launch/test_robots.launch.py
+-- Symlinking: /overlay_ws/install/ariac_description/share/ament_index/resource_index/package_run_dependencies/ariac_description
+-- Symlinking: /overlay_ws/install/ariac_description/share/ament_index/resource_index/parent_prefix_path/ariac_description
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/environment/ament_prefix_path.sh
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/environment/ament_prefix_path.dsv
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/environment/path.sh
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/environment/path.dsv
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/local_setup.bash
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/local_setup.sh
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/local_setup.zsh
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/local_setup.dsv
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/package.dsv
+-- Symlinking: /overlay_ws/install/ariac_description/share/ament_index/resource_index/packages/ariac_description
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/cmake/ariac_descriptionConfig.cmake
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/cmake/ariac_descriptionConfig-version.cmake
+-- Symlinking: /overlay_ws/install/ariac_description/share/ariac_description/package.xml

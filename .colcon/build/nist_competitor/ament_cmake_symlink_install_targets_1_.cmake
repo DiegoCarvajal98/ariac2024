@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/overlay_ws/build/nist_competitor/libnist_competitor.so" "TARGETS" "nist_competitor" "RUNTIME_DESTINATION" "bin" "LIBRARY_DESTINATION" "lib" "ARCHIVE_DESTINATION" "lib")

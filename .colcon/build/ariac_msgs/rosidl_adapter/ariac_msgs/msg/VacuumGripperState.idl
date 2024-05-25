@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from ariac_msgs/msg/VacuumGripperState.msg
+// generated code does not contain a copyright notice
+
+
+module ariac_msgs {
+  module msg {
+    struct VacuumGripperState {
+      @verbatim (language="comment", text=
+        "is the suction enabled?")
+      boolean enabled;
+
+      @verbatim (language="comment", text=
+        "is an object attached to the gripper?")
+      boolean attached;
+
+      @verbatim (language="comment", text=
+        "type of the gripper")
+      string type;
+    };
+  };
+};

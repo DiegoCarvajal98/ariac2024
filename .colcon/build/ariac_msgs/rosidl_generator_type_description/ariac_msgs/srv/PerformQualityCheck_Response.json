@@ -1,0 +1,156 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "ariac_msgs/srv/PerformQualityCheck_Response",
+      "fields": [
+        {
+          "name": "valid_id",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "all_passed",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "incorrect_tray",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "quadrant1",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ariac_msgs/msg/QualityIssue"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "quadrant2",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ariac_msgs/msg/QualityIssue"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "quadrant3",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ariac_msgs/msg/QualityIssue"
+          },
+          "default_value": ""
+        },
+        {
+          "name": "quadrant4",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "ariac_msgs/msg/QualityIssue"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "ariac_msgs/msg/QualityIssue",
+        "fields": [
+          {
+            "name": "all_passed",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "missing_part",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "flipped_part",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "faulty_part",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "incorrect_part_type",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          },
+          {
+            "name": "incorrect_part_color",
+            "type": {
+              "type_id": 15,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "ariac_msgs/srv/PerformQualityCheck_Response",
+      "hash_string": "RIHS01_0abc22fc49361e7cb5d47e19750c71d455d0acd38f105fca5d9a50ef195d7378"
+    },
+    {
+      "type_name": "ariac_msgs/msg/QualityIssue",
+      "hash_string": "RIHS01_228758c13c9c8caf5366bbb186a61b699318362dff668802b763392bb1f99662"
+    }
+  ]
+}

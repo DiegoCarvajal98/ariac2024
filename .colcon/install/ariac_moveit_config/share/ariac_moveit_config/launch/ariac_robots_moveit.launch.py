@@ -1,0 +1,1 @@
+/overlay_ws/src/ARIAC/ariac_moveit_config/launch/ariac_robots_moveit.launch.py

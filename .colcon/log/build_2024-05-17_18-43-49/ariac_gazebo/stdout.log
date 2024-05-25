@@ -1,0 +1,260 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclpy: 4.1.5 (/opt/ros/iron/share/rclpy/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /overlay_ws/build/ariac_gazebo
+Built target ament_cmake_python_symlink_ariac_gazebo
+running egg_info
+creating ariac_gazebo.egg-info
+writing ariac_gazebo.egg-info/PKG-INFO
+writing dependency_links to ariac_gazebo.egg-info/dependency_links.txt
+writing top-level names to ariac_gazebo.egg-info/top_level.txt
+writing manifest file 'ariac_gazebo.egg-info/SOURCES.txt'
+running install_scripts
+reading manifest file 'ariac_gazebo.egg-info/SOURCES.txt'
+writing manifest file 'ariac_gazebo.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_ariac_gazebo_egg
+running egg_info
+writing ariac_gazebo.egg-info/PKG-INFO
+writing dependency_links to ariac_gazebo.egg-info/dependency_links.txt
+writing top-level names to ariac_gazebo.egg-info/top_level.txt
+reading manifest file 'ariac_gazebo.egg-info/SOURCES.txt'
+writing manifest file 'ariac_gazebo.egg-info/SOURCES.txt'
+Built target ament_cmake_python_build_ariac_gazebo_scripts
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/config/ariac.rviz
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/config/object_poses.yaml
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/config/sensors.yaml
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/config/trials/assembly.yaml
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/config/trials/assembly_all_stations.yaml
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/config/trials/combined.yaml
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/config/trials/kitting.yaml
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/config/trials/tutorial.yaml
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/launch/ariac.launch.py
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/agv_path/meshes/__auto_.png
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/agv_path/meshes/path.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/agv_path/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/agv_path/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/meshes/battery_contact.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/meshes/hardware.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/meshes/insert_base.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/meshes/insert_collision.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/meshes/mounts.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/meshes/pipe_1.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/meshes/pipe_2.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/meshes/pump_contact.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/meshes/regulator_contact.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/meshes/screen.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/meshes/sensor_contact.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_insert/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_table/meshes/assembly_table_collision.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_table/meshes/leg1.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_table/meshes/leg2.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_table/meshes/leg3.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_table/meshes/leg4.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_table/meshes/table_top.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_table/meshes/tape_outline.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_table/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/assembly_table/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/battery/meshes/battery_base.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/battery/meshes/battery_cap.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/battery/meshes/battery_collision.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/battery/meshes/battery_pins.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/battery/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/battery/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets/meshes/AM200_029_01_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets/meshes/AM200_029_02_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets/meshes/AM200_029_07_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets/meshes/box_pallet.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_2/meshes/AM200_029_01_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_2/meshes/AM200_029_05_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_2/meshes/AM200_029_06_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_2/meshes/box_pallet.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_2/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_2/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_3/meshes/AM200_029_01_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_3/meshes/AM200_029_03_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_3/meshes/AM200_029_04_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_3/meshes/AM200_029_08_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_3/meshes/box_pallet.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_3/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/box_pallets_3/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/cage_factory/meshes/AM200_025_01_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/cage_factory/meshes/AM200_025_02_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/cage_factory/meshes/AM200_025_04_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/cage_factory/meshes/AM200_025_06_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/cage_factory/meshes/AM200_025_07_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/cage_factory/meshes/AM200_025_09_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/cage_factory/meshes/cage.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/cage_factory/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/cage_factory/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer/meshes/AM200_035_03_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer/meshes/AM200_035_04_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer/meshes/AM200_035_05_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer/meshes/AM200_035_06_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer/meshes/computer.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer_2/meshes/AM200_035_01_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer_2/meshes/AM200_035_02_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer_2/meshes/AM200_035_03_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer_2/meshes/computer.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer_2/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/computer_2/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/conveyor_belt/meshes/HighVoltage.jpg.001.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/conveyor_belt/meshes/MetalBareSpecularMap.png
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/conveyor_belt/meshes/TilesPlain0213_1_S.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/conveyor_belt/meshes/compressedAirWarning.png
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/conveyor_belt/meshes/conveyor.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/conveyor_belt/meshes/conveyor.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/conveyor_belt/meshes/conveyor_nobase.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/conveyor_belt/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/conveyor_belt/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/disposal_bin/meshes/disposal_bin.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/disposal_bin/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/disposal_bin/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/dropped_part_bin/meshes/disposal_bin.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/dropped_part_bin/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/dropped_part_bin/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/factory_shelf/meshes/AM200_026_01_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/factory_shelf/meshes/AM200_026_02_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/factory_shelf/meshes/AM200_026_03_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/factory_shelf/meshes/AM200_026_04_Diffuse.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/factory_shelf/meshes/factory_shelf.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/factory_shelf/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/factory_shelf/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/floor/meshes/Suede_Blue.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/floor/meshes/floor.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/floor/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/floor/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/id_00.png
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/id_01.png
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/id_02.png
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/id_03.png
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/id_04.png
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/id_05.png
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/id_06.png
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/id_07.png
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/id_08.png
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/id_09.png
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/marker_00.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/marker_01.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/marker_02.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/marker_03.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/marker_04.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/marker_05.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/marker_06.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/marker_07.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/marker_08.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/markers/marker_09.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/tape.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/tray_base.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/meshes/tray_collision.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray_table/meshes/Metal_Rough.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray_table/meshes/kit_tray_table.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray_table/meshes/kit_tray_table.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray_table/meshes/table_collision.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray_table/meshes/tool_changer_1.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray_table/meshes/tool_changer_2.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray_table/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/kit_tray_table/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/open_box_ariac/materials/textures/open_box.png
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/open_box_ariac/meshes/open_box.mtl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/open_box_ariac/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/open_box_ariac/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/parts_bin/meshes/Metal_Rough.jpg.001.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/parts_bin/meshes/Steel_Brushed_Stainless.jpg.001.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/parts_bin/meshes/bin_exterior.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/parts_bin/meshes/bin_exterior.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/parts_bin/meshes/bin_interior.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/parts_bin/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/parts_bin/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump/meshes/pump_back_pane.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump/meshes/pump_base.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump/meshes/pump_bottom_pane.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump/meshes/pump_collision.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump/meshes/pump_enclosure.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump/meshes/pump_front_pane.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump/meshes/pump_left_pane.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump/meshes/pump_right_pane.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump/meshes/pump_top_pane.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/pump/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/regulator/meshes/regulator_base.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/regulator/meshes/regulator_collision.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/regulator/meshes/regulator_long_peg.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/regulator/meshes/regulator_short_peg.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/regulator/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/regulator/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/sensor/meshes/sensor_base.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/sensor/meshes/sensor_collision.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/sensor/meshes/sensor_peg.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/sensor/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/sensor/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/warehouse/meshes/Brick_Tumbled.jpg
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/warehouse/meshes/roof.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/warehouse/meshes/tape.stl
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/warehouse/meshes/warehouse.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/warehouse/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/warehouse/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/workcell_shelf/meshes/shelf.dae
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/workcell_shelf/model.config
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/models/workcell_shelf/model.sdf
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/worlds/ariac.world
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/environment/pythonpath.sh
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/environment/pythonpath.dsv
+-- Symlinking: /overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages/ariac_gazebo-2024.4.1-py3.10.egg-info/PKG-INFO
+-- Symlinking: /overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages/ariac_gazebo-2024.4.1-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages/ariac_gazebo-2024.4.1-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages/ariac_gazebo-2024.4.1-py3.10.egg-info/top_level.txt
+-- Symlinking: /overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages/ariac_gazebo/__init__.py
+-- Symlinking: /overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages/ariac_gazebo/environment_startup.py
+-- Symlinking: /overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages/ariac_gazebo/spawn_params.py
+-- Symlinking: /overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages/ariac_gazebo/tf_broadcaster.py
+-- Symlinking: /overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages/ariac_gazebo/utilities.py
+-- Symlinking: /overlay_ws/install/ariac_gazebo/lib/ariac_gazebo/environment_startup_node.py
+-- Symlinking: /overlay_ws/install/ariac_gazebo/lib/ariac_gazebo/robot_controller_switcher_node.py
+-- Symlinking: /overlay_ws/install/ariac_gazebo/lib/ariac_gazebo/sensor_tf_broadcaster.py
+-- Symlinking: /overlay_ws/install/ariac_gazebo/lib/ariac_gazebo/object_tf_broadcaster.py
+-- Symlinking: /overlay_ws/install/ariac_gazebo/lib/ariac_gazebo/part_spawner.py
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ament_index/resource_index/package_run_dependencies/ariac_gazebo
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ament_index/resource_index/parent_prefix_path/ariac_gazebo
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/environment/ament_prefix_path.sh
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/environment/ament_prefix_path.dsv
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/environment/path.sh
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/environment/path.dsv
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/local_setup.bash
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/local_setup.sh
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/local_setup.zsh
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/local_setup.dsv
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/package.dsv
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ament_index/resource_index/packages/ariac_gazebo
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/cmake/ariac_gazeboConfig.cmake
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/cmake/ariac_gazeboConfig-version.cmake
+-- Symlinking: /overlay_ws/install/ariac_gazebo/share/ariac_gazebo/package.xml
+Listing '/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages/ariac_gazebo'...
+Compiling '/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages/ariac_gazebo/__init__.py'...
+Compiling '/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages/ariac_gazebo/environment_startup.py'...
+Compiling '/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages/ariac_gazebo/spawn_params.py'...
+Compiling '/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages/ariac_gazebo/tf_broadcaster.py'...
+Compiling '/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages/ariac_gazebo/utilities.py'...

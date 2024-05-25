@@ -1,0 +1,56 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rclcpp: 21.0.6 (/opt/ros/iron/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.6.0 (/opt/ros/iron/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Found controller_interface: 3.25.0 (/opt/ros/iron/share/controller_interface/cmake)
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /overlay_ws/build/ariac_controllers
+[ 50%] [32mBuilding CXX object CMakeFiles/ariac_controllers.dir/src/static_controller.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libariac_controllers.so[0m
+[100%] Built target ariac_controllers
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /overlay_ws/install/ariac_controllers/share/ariac_controllers//controllers.xml
+-- Symlinking: /overlay_ws/install/ariac_controllers/lib/libariac_controllers.so
+-- Symlinking: /overlay_ws/install/ariac_controllers/include/ariac_controllers/static_controller.hpp
+-- Symlinking: /overlay_ws/install/ariac_controllers/share/ariac_controllers/environment/library_path.sh
+-- Symlinking: /overlay_ws/install/ariac_controllers/share/ariac_controllers/environment/library_path.dsv
+-- Symlinking: /overlay_ws/install/ariac_controllers/share/ament_index/resource_index/package_run_dependencies/ariac_controllers
+-- Symlinking: /overlay_ws/install/ariac_controllers/share/ament_index/resource_index/parent_prefix_path/ariac_controllers
+-- Symlinking: /overlay_ws/install/ariac_controllers/share/ariac_controllers/environment/ament_prefix_path.sh
+-- Symlinking: /overlay_ws/install/ariac_controllers/share/ariac_controllers/environment/ament_prefix_path.dsv
+-- Symlinking: /overlay_ws/install/ariac_controllers/share/ariac_controllers/environment/path.sh
+-- Symlinking: /overlay_ws/install/ariac_controllers/share/ariac_controllers/environment/path.dsv
+-- Symlinking: /overlay_ws/install/ariac_controllers/share/ariac_controllers/local_setup.bash
+-- Symlinking: /overlay_ws/install/ariac_controllers/share/ariac_controllers/local_setup.sh
+-- Symlinking: /overlay_ws/install/ariac_controllers/share/ariac_controllers/local_setup.zsh
+-- Symlinking: /overlay_ws/install/ariac_controllers/share/ariac_controllers/local_setup.dsv
+-- Symlinking: /overlay_ws/install/ariac_controllers/share/ariac_controllers/package.dsv
+-- Symlinking: /overlay_ws/install/ariac_controllers/share/ament_index/resource_index/packages/ariac_controllers
+-- Symlinking: /overlay_ws/install/ariac_controllers/share/ament_index/resource_index/controller_interface__pluginlib__plugin/ariac_controllers
+-- Symlinking: /overlay_ws/install/ariac_controllers/share/ariac_controllers/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /overlay_ws/install/ariac_controllers/share/ariac_controllers/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /overlay_ws/install/ariac_controllers/share/ariac_controllers/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /overlay_ws/install/ariac_controllers/share/ariac_controllers/cmake/ariac_controllersConfig.cmake
+-- Symlinking: /overlay_ws/install/ariac_controllers/share/ariac_controllers/cmake/ariac_controllersConfig-version.cmake
+-- Symlinking: /overlay_ws/install/ariac_controllers/share/ariac_controllers/package.xml

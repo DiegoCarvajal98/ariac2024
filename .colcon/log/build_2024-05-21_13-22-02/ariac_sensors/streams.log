@@ -1,0 +1,64 @@
+[0.273s] Invoking command in '/overlay_ws/build/ariac_sensors': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /overlay_ws/build/ariac_sensors -- -j12 -l12
+[0.341s] [35m[1mConsolidate compiler generated dependencies of target AriacLogicalCameraPlugin[0m
+[0.342s] [35m[1mConsolidate compiler generated dependencies of target AriacRayPlugin[0m
+[0.367s] [35m[1mConsolidate compiler generated dependencies of target AriacCameraPlugin[0m
+[0.457s] [ 33%] Built target AriacLogicalCameraPlugin
+[0.473s] [ 66%] Built target AriacRayPlugin
+[0.525s] [100%] Built target AriacCameraPlugin
+[0.547s] Invoked command in '/overlay_ws/build/ariac_sensors' returned '0': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /overlay_ws/build/ariac_sensors -- -j12 -l12
+[0.607s] Invoking command in '/overlay_ws/build/ariac_sensors': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /overlay_ws/build/ariac_sensors
+[0.617s] -- Install configuration: ""
+[0.618s] -- Execute custom install script
+[0.619s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/environment/library_path.sh
+[0.619s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/environment/library_path.dsv
+[0.619s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ament_index/resource_index/package_run_dependencies/ariac_sensors
+[0.620s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ament_index/resource_index/parent_prefix_path/ariac_sensors
+[0.620s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/environment/ament_prefix_path.sh
+[0.620s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/environment/ament_prefix_path.dsv
+[0.621s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/environment/path.sh
+[0.621s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/environment/path.dsv
+[0.621s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/local_setup.bash
+[0.622s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/local_setup.sh
+[0.622s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/local_setup.zsh
+[0.622s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/local_setup.dsv
+[0.622s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors/package.dsv
+[0.634s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ament_index/resource_index/packages/ariac_sensors
+[0.635s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/cmake/ament_cmake_export_libraries-extras.cmake
+[0.635s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/cmake/ariac_sensorsConfig.cmake
+[0.635s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/cmake/ariac_sensorsConfig-version.cmake
+[0.635s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors/package.xml
+[0.636s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/include/ariac_sensors/ariac_camera_plugin.hpp
+[0.636s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/include/ariac_sensors/ariac_logical_camera_plugin.hpp
+[0.637s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/include/ariac_sensors/ariac_ray_plugin.hpp
+[0.637s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/lib/libAriacRayPlugin.so
+[0.637s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/lib/libAriacCameraPlugin.so
+[0.638s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/lib/libAriacLogicalCameraPlugin.so
+[0.641s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/advanced_logical_camera/materials/textures/camera.png
+[0.642s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/advanced_logical_camera/meshes/camera.dae
+[0.642s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/advanced_logical_camera/model.config
+[0.643s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/advanced_logical_camera/model.sdf
+[0.643s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/agv_tray_sensor/model.config
+[0.643s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/agv_tray_sensor/model.sdf
+[0.643s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/assembly_station_sensor/model.config
+[0.644s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/assembly_station_sensor/model.sdf
+[0.644s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/basic_logical_camera/materials/textures/camera.png
+[0.645s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/basic_logical_camera/meshes/camera.dae
+[0.645s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/basic_logical_camera/model.config
+[0.645s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/basic_logical_camera/model.sdf
+[0.646s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/break_beam/meshes/break_beam.dae
+[0.646s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/break_beam/model.config
+[0.646s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/break_beam/model.sdf
+[0.646s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/laser_profiler/model.config
+[0.647s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/laser_profiler/model.sdf
+[0.647s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/lidar/meshes/SR4000.stl
+[0.647s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/lidar/model.config
+[0.648s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/lidar/model.sdf
+[0.648s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/proximity/model.config
+[0.648s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/proximity/model.sdf
+[0.648s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/rgb_camera/meshes/SR4000.stl
+[0.649s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/rgb_camera/model.config
+[0.650s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/rgb_camera/model.sdf
+[0.652s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/rgbd_camera/meshes/SR4000.stl
+[0.654s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/rgbd_camera/model.config
+[0.655s] -- Up-to-date symlink: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/rgbd_camera/model.sdf
+[0.656s] Invoked command in '/overlay_ws/build/ariac_sensors' returned '0': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /overlay_ws/build/ariac_sensors

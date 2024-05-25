@@ -1,0 +1,4 @@
+
+bool valid_id
+bool agv_at_station
+ariac_msgs/PartPose[] parts

@@ -1,0 +1,177 @@
+[0.018s] Invoking command in '/overlay_ws/build/ariac_sensors': AMENT_PREFIX_PATH=/overlay_ws/install/ariac_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /overlay_ws/src/ARIAC/ariac_sensors -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/overlay_ws/install/ariac_sensors
+[0.172s] -- The C compiler identification is GNU 11.4.0
+[0.250s] -- The CXX compiler identification is GNU 11.4.0
+[0.262s] -- Detecting C compiler ABI info
+[0.335s] -- Detecting C compiler ABI info - done
+[0.344s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.347s] -- Detecting C compile features
+[0.348s] -- Detecting C compile features - done
+[0.353s] -- Detecting CXX compiler ABI info
+[0.448s] -- Detecting CXX compiler ABI info - done
+[0.458s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.458s] -- Detecting CXX compile features
+[0.459s] -- Detecting CXX compile features - done
+[0.467s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.705s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.797s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.851s] -- Found camera_info_manager: 4.2.4 (/opt/ros/iron/share/camera_info_manager/cmake)
+[0.948s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[0.972s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.013s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.056s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.344s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.349s] -- Found rmw_cyclonedds_cpp: 1.6.0 (/opt/ros/iron/share/rmw_cyclonedds_cpp/cmake)
+[1.416s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[2.327s] -- Found gazebo_msgs: 3.7.0 (/opt/ros/iron/share/gazebo_msgs/cmake)
+[3.100s] -- Found gazebo_ros: 3.7.0 (/opt/ros/iron/share/gazebo_ros/cmake)
+[3.121s] -- Found PkgConfig: /usr/bin/pkg-config (found version "0.29.2") 
+[3.122s] -- Checking for module 'bullet>=2.82'
+[3.136s] --   Found bullet, version 3.05
+[3.265s] -- Found fcl: /usr/include (found suitable version "0.7.0", minimum required is "0.5.0") 
+[3.320s] -- Found assimp: /usr/include (found version "5.2.0") 
+[3.368s] -- Found DART: /usr/include (Required is at least version "6.6") found components: dart 
+[3.640s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.40.0") found components: thread system filesystem program_options regex iostreams date_time 
+[3.668s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[3.678s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.690s] -- Searching for dependencies of ignition-math6
+[3.693s] -- Looking for OGRE...
+[3.694s] -- OGRE_PREFIX_WATCH changed.
+[3.700s] -- Checking for module 'OGRE'
+[3.715s] --   Found OGRE, version 1.9.0
+[3.758s] -- Found Ogre Ghadamon (1.9.0)
+[3.783s] -- Found OGRE: optimized;/usr/lib/x86_64-linux-gnu/libOgreMain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreMain.so
+[3.796s] -- Looking for OGRE_Paging...
+[3.799s] -- Found OGRE_Paging: optimized;/usr/lib/x86_64-linux-gnu/libOgrePaging.so;debug;/usr/lib/x86_64-linux-gnu/libOgrePaging.so
+[3.799s] -- Looking for OGRE_Terrain...
+[3.803s] -- Found OGRE_Terrain: optimized;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so;debug;/usr/lib/x86_64-linux-gnu/libOgreTerrain.so
+[3.803s] -- Looking for OGRE_Property...
+[3.806s] -- Found OGRE_Property: optimized;/usr/lib/x86_64-linux-gnu/libOgreProperty.so;debug;/usr/lib/x86_64-linux-gnu/libOgreProperty.so
+[3.806s] -- Looking for OGRE_RTShaderSystem...
+[3.809s] -- Found OGRE_RTShaderSystem: optimized;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so;debug;/usr/lib/x86_64-linux-gnu/libOgreRTShaderSystem.so
+[3.809s] -- Looking for OGRE_Volume...
+[3.812s] -- Found OGRE_Volume: optimized;/usr/lib/x86_64-linux-gnu/libOgreVolume.so;debug;/usr/lib/x86_64-linux-gnu/libOgreVolume.so
+[3.812s] -- Looking for OGRE_Overlay...
+[3.815s] -- Found OGRE_Overlay: optimized;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so;debug;/usr/lib/x86_64-linux-gnu/libOgreOverlay.so
+[3.916s] -- Looking for ignition-math6 -- found version 6.15.1
+[3.920s] -- Looking for ignition-transport8 -- found version 8.2.1
+[3.921s] -- Searching for dependencies of ignition-transport8
+[3.947s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found suitable version "3.12.4", minimum required is "3") 
+[3.966s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[3.972s] -- Checking for module 'libzmq >= 4'
+[3.988s] --   Found libzmq , version 4.3.4
+[4.028s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[4.034s] -- Checking for module 'uuid'
+[4.046s] --   Found uuid, version 2.37.2
+[4.079s] -- Found UUID: TRUE  
+[4.085s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.086s] -- Searching for dependencies of ignition-msgs5
+[4.110s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.115s] -- Checking for module 'tinyxml2'
+[4.129s] --   Found tinyxml2, version 9.0.0
+[4.167s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.173s] -- Looking for ignition-common3 -- found version 3.14.0
+[4.174s] -- Searching for dependencies of ignition-common3
+[4.174s] -- Looking for dlfcn.h - found
+[4.175s] -- Looking for libdl - found
+[4.177s] -- Found DL: TRUE  
+[4.195s] -- Found tinyobjloader: /usr/lib/x86_64-linux-gnu/cmake/tinyobjloader/tinyobjloader-config.cmake (found version "2.0.0") 
+[4.196s] -- Searching for <ignition-common3> component [graphics]
+[4.201s] -- Looking for ignition-common3-graphics -- found version 3.14.0
+[4.201s] -- Searching for dependencies of ignition-common3-graphics
+[4.202s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.207s] -- Looking for ignition-fuel_tools4 -- found version 4.4.0
+[4.208s] -- Searching for dependencies of ignition-fuel_tools4
+[4.294s] -- Found CURL: /usr/lib/x86_64-linux-gnu/libcurl.so (found version "7.81.0")  
+[4.308s] -- Checking for module 'jsoncpp'
+[4.322s] --   Found jsoncpp, version 1.9.5
+[4.357s] -- Found JSONCPP: TRUE  
+[4.366s] -- Checking for module 'libzip'
+[4.380s] --   Found libzip, version 1.7.3
+[4.415s] -- Found ZIP: TRUE  
+[4.416s] -- Looking for ignition-common3 -- found version 3.14.0
+[4.416s] -- Looking for ignition-math6 -- found version 6.15.1
+[4.417s] -- Looking for ignition-msgs5 -- found version 5.8.1
+[4.434s] -- Gazebo version: 11.10
+[4.435s] -- Checking for module 'tbb'
+[4.474s] --   Found tbb, version 2021.5.0
+[4.590s] -- Found image_transport: 4.2.4 (/opt/ros/iron/share/image_transport/cmake)
+[4.673s] -- Found cv_bridge: 3.5.0 (/opt/ros/iron/share/cv_bridge/cmake)
+[4.714s] -- Found nav_msgs: 5.0.0 (/opt/ros/iron/share/nav_msgs/cmake)
+[4.902s] -- Found std_srvs: 5.0.0 (/opt/ros/iron/share/std_srvs/cmake)
+[4.978s] -- Found tf2_geometry_msgs: 0.31.6 (/opt/ros/iron/share/tf2_geometry_msgs/cmake)
+[5.000s] -- Found eigen3_cmake_module: 0.2.2 (/opt/ros/iron/share/eigen3_cmake_module/cmake)
+[5.003s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.003s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.740s] -- Found ariac_msgs: 2024.4.1 (/overlay_ws/install/ariac_msgs/share/ariac_msgs/cmake)
+[5.978s] -- Found tf2_kdl: 0.31.6 (/opt/ros/iron/share/tf2_kdl/cmake)
+[6.150s] -- Configuring done
+[6.256s] -- Generating done
+[6.259s] -- Build files have been written to: /overlay_ws/build/ariac_sensors
+[6.275s] Invoked command in '/overlay_ws/build/ariac_sensors' returned '0': AMENT_PREFIX_PATH=/overlay_ws/install/ariac_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake /overlay_ws/src/ARIAC/ariac_sensors -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/overlay_ws/install/ariac_sensors
+[6.280s] Invoking command in '/overlay_ws/build/ariac_sensors': AMENT_PREFIX_PATH=/overlay_ws/install/ariac_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /overlay_ws/build/ariac_sensors -- -j12 -l12
+[6.331s] [ 33%] [32mBuilding CXX object CMakeFiles/AriacCameraPlugin.dir/src/ariac_camera_plugin.cpp.o[0m
+[6.331s] [ 33%] [32mBuilding CXX object CMakeFiles/AriacRayPlugin.dir/src/ariac_ray_plugin.cpp.o[0m
+[6.332s] [ 50%] [32mBuilding CXX object CMakeFiles/AriacLogicalCameraPlugin.dir/src/ariac_logical_camera_plugin.cpp.o[0m
+[29.259s] [ 66%] [32m[1mLinking CXX shared library libAriacLogicalCameraPlugin.so[0m
+[30.668s] [ 66%] Built target AriacLogicalCameraPlugin
+[32.763s] [ 83%] [32m[1mLinking CXX shared library libAriacRayPlugin.so[0m
+[34.071s] [ 83%] Built target AriacRayPlugin
+[41.222s] [100%] [32m[1mLinking CXX shared library libAriacCameraPlugin.so[0m
+[42.279s] [100%] Built target AriacCameraPlugin
+[42.290s] Invoked command in '/overlay_ws/build/ariac_sensors' returned '0': AMENT_PREFIX_PATH=/overlay_ws/install/ariac_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --build /overlay_ws/build/ariac_sensors -- -j12 -l12
+[42.324s] Invoking command in '/overlay_ws/build/ariac_sensors': AMENT_PREFIX_PATH=/overlay_ws/install/ariac_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /overlay_ws/build/ariac_sensors
+[42.332s] -- Install configuration: ""
+[42.332s] -- Execute custom install script
+[42.333s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors/environment/library_path.sh
+[42.343s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors/environment/library_path.dsv
+[42.352s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ament_index/resource_index/package_run_dependencies/ariac_sensors
+[42.362s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ament_index/resource_index/parent_prefix_path/ariac_sensors
+[42.371s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors/environment/ament_prefix_path.sh
+[42.380s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors/environment/ament_prefix_path.dsv
+[42.388s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors/environment/path.sh
+[42.396s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors/environment/path.dsv
+[42.404s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors/local_setup.bash
+[42.412s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors/local_setup.sh
+[42.420s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors/local_setup.zsh
+[42.428s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors/local_setup.dsv
+[42.438s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors/package.dsv
+[42.447s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ament_index/resource_index/packages/ariac_sensors
+[42.456s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors/cmake/ament_cmake_export_libraries-extras.cmake
+[42.467s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors/cmake/ariac_sensorsConfig.cmake
+[42.478s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors/cmake/ariac_sensorsConfig-version.cmake
+[42.490s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors/package.xml
+[42.502s] -- Symlinking: /overlay_ws/install/ariac_sensors/include/ariac_sensors/ariac_camera_plugin.hpp
+[42.512s] -- Symlinking: /overlay_ws/install/ariac_sensors/include/ariac_sensors/ariac_logical_camera_plugin.hpp
+[42.522s] -- Symlinking: /overlay_ws/install/ariac_sensors/include/ariac_sensors/ariac_ray_plugin.hpp
+[42.533s] -- Symlinking: /overlay_ws/install/ariac_sensors/lib/libAriacRayPlugin.so
+[42.543s] -- Symlinking: /overlay_ws/install/ariac_sensors/lib/libAriacCameraPlugin.so
+[42.552s] -- Symlinking: /overlay_ws/install/ariac_sensors/lib/libAriacLogicalCameraPlugin.so
+[42.565s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/advanced_logical_camera/materials/textures/camera.png
+[42.575s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/advanced_logical_camera/meshes/camera.dae
+[42.585s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/advanced_logical_camera/model.config
+[42.593s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/advanced_logical_camera/model.sdf
+[42.601s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/agv_tray_sensor/model.config
+[42.609s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/agv_tray_sensor/model.sdf
+[42.617s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/assembly_station_sensor/model.config
+[42.624s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/assembly_station_sensor/model.sdf
+[42.632s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/basic_logical_camera/materials/textures/camera.png
+[42.640s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/basic_logical_camera/meshes/camera.dae
+[42.647s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/basic_logical_camera/model.config
+[42.654s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/basic_logical_camera/model.sdf
+[42.662s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/break_beam/meshes/break_beam.dae
+[42.670s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/break_beam/model.config
+[42.678s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/break_beam/model.sdf
+[42.686s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/laser_profiler/model.config
+[42.695s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/laser_profiler/model.sdf
+[42.702s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/lidar/meshes/SR4000.stl
+[42.710s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/lidar/model.config
+[42.718s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/lidar/model.sdf
+[42.727s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/proximity/model.config
+[42.735s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/proximity/model.sdf
+[42.743s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/rgb_camera/meshes/SR4000.stl
+[42.752s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/rgb_camera/model.config
+[42.760s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/rgb_camera/model.sdf
+[42.769s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/rgbd_camera/meshes/SR4000.stl
+[42.778s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/rgbd_camera/model.config
+[42.787s] -- Symlinking: /overlay_ws/install/ariac_sensors/share/ariac_sensors//models/rgbd_camera/model.sdf
+[42.799s] Invoked command in '/overlay_ws/build/ariac_sensors' returned '0': AMENT_PREFIX_PATH=/overlay_ws/install/ariac_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/cmake --install /overlay_ws/build/ariac_sensors

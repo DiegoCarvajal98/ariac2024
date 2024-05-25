@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from ariac_msgs/srv/GetPreAssemblyPoses.srv
+// generated code does not contain a copyright notice
+
+#include "ariac_msgs/msg/PartPose.idl"
+
+module ariac_msgs {
+  module srv {
+    struct GetPreAssemblyPoses_Request {
+      string order_id;
+    };
+    struct GetPreAssemblyPoses_Response {
+      boolean valid_id;
+
+      boolean agv_at_station;
+
+      sequence<ariac_msgs::msg::PartPose> parts;
+    };
+  };
+};

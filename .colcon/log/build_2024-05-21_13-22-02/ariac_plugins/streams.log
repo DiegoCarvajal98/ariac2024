@@ -1,0 +1,66 @@
+[0.274s] Invoking command in '/overlay_ws/build/ariac_plugins': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /overlay_ws/build/ariac_plugins -- -j12 -l12
+[0.345s] [35m[1mConsolidate compiler generated dependencies of target conveyor_belt_plugin[0m
+[0.345s] [35m[1mConsolidate compiler generated dependencies of target VacuumGripperPlugin[0m
+[0.348s] [35m[1mConsolidate compiler generated dependencies of target GripperColorPlugin[0m
+[0.349s] [35m[1mConsolidate compiler generated dependencies of target assembly_state_publisher[0m
+[0.349s] [35m[1mConsolidate compiler generated dependencies of target agv_plugin[0m
+[0.350s] [35m[1mConsolidate compiler generated dependencies of target assembly_lock_plugin[0m
+[0.362s] [35m[1mConsolidate compiler generated dependencies of target AGVTrayPlugin[0m
+[0.366s] [35m[1mConsolidate compiler generated dependencies of target TaskManagerPlugin[0m
+[0.366s] [35m[1mConsolidate compiler generated dependencies of target ObjectDisposalPlugin[0m
+[0.389s] [35m[1mConsolidate compiler generated dependencies of target disable_shadows_plugin[0m
+[0.482s] [ 10%] Built target GripperColorPlugin
+[0.482s] [ 20%] Built target conveyor_belt_plugin
+[0.511s] [ 30%] Built target VacuumGripperPlugin
+[0.526s] [ 45%] Built target AGVTrayPlugin
+[0.526s] [ 50%] Built target assembly_lock_plugin
+[0.528s] [ 60%] Built target ObjectDisposalPlugin
+[0.531s] [ 70%] Built target disable_shadows_plugin
+[0.533s] [ 80%] Built target agv_plugin
+[0.539s] [ 90%] Built target assembly_state_publisher
+[0.541s] [100%] Built target TaskManagerPlugin
+[0.563s] Invoked command in '/overlay_ws/build/ariac_plugins' returned '0': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /overlay_ws/build/ariac_plugins -- -j12 -l12
+[0.661s] Invoking command in '/overlay_ws/build/ariac_plugins': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /overlay_ws/build/ariac_plugins
+[0.670s] -- Install configuration: ""
+[0.671s] -- Execute custom install script
+[0.673s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/share/ariac_plugins/environment/library_path.sh
+[0.673s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/share/ariac_plugins/environment/library_path.dsv
+[0.674s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/share/ament_index/resource_index/package_run_dependencies/ariac_plugins
+[0.674s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/share/ament_index/resource_index/parent_prefix_path/ariac_plugins
+[0.674s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/share/ariac_plugins/environment/ament_prefix_path.sh
+[0.674s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/share/ariac_plugins/environment/ament_prefix_path.dsv
+[0.674s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/share/ariac_plugins/environment/path.sh
+[0.675s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/share/ariac_plugins/environment/path.dsv
+[0.675s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/share/ariac_plugins/local_setup.bash
+[0.675s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/share/ariac_plugins/local_setup.sh
+[0.675s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/share/ariac_plugins/local_setup.zsh
+[0.675s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/share/ariac_plugins/local_setup.dsv
+[0.675s] -- Symlinking: /overlay_ws/install/ariac_plugins/share/ariac_plugins/package.dsv
+[0.687s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/share/ament_index/resource_index/packages/ariac_plugins
+[0.688s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/share/ariac_plugins/cmake/ament_cmake_export_libraries-extras.cmake
+[0.688s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/share/ariac_plugins/cmake/ariac_pluginsConfig.cmake
+[0.688s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/share/ariac_plugins/cmake/ariac_pluginsConfig-version.cmake
+[0.689s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/share/ariac_plugins/package.xml
+[0.689s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/include/ariac_plugins/agv_plugin.hpp
+[0.690s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/include/ariac_plugins/agv_tray_plugin.hpp
+[0.690s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/include/ariac_plugins/ariac_common.hpp
+[0.690s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/include/ariac_plugins/ariac_plugin_template.hpp
+[0.690s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/include/ariac_plugins/assembly_lock_plugin.hpp
+[0.690s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/include/ariac_plugins/assembly_state_publisher.hpp
+[0.691s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/include/ariac_plugins/conveyor_belt_plugin.hpp
+[0.691s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/include/ariac_plugins/disable_shadows_plugin.hpp
+[0.691s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/include/ariac_plugins/gripper_color_plugin.hpp
+[0.691s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/include/ariac_plugins/object_disposal_plugin.hpp
+[0.692s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/include/ariac_plugins/task_manager_plugin.hpp
+[0.692s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/include/ariac_plugins/vacuum_gripper_plugin.hpp
+[0.693s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/lib/libVacuumGripperPlugin.so
+[0.693s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/lib/libconveyor_belt_plugin.so
+[0.693s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/lib/libagv_plugin.so
+[0.693s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/lib/libassembly_lock_plugin.so
+[0.694s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/lib/libassembly_state_publisher.so
+[0.694s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/lib/libGripperColorPlugin.so
+[0.694s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/lib/libdisable_shadows_plugin.so
+[0.695s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/lib/libObjectDisposalPlugin.so
+[0.695s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/lib/libAGVTrayPlugin.so
+[0.695s] -- Up-to-date symlink: /overlay_ws/install/ariac_plugins/lib/libTaskManagerPlugin.so
+[0.698s] Invoked command in '/overlay_ws/build/ariac_plugins' returned '0': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /overlay_ws/build/ariac_plugins

@@ -1,0 +1,90 @@
+[0.270s] Invoking command in '/overlay_ws/build/nist_competitor': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake /overlay_ws/src/nist_competitor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/overlay_ws/install/nist_competitor
+[0.370s] -- The C compiler identification is GNU 11.4.0
+[0.513s] -- The CXX compiler identification is GNU 11.4.0
+[0.533s] -- Detecting C compiler ABI info
+[0.638s] -- Detecting C compiler ABI info - done
+[0.658s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.658s] -- Detecting C compile features
+[0.659s] -- Detecting C compile features - done
+[0.664s] -- Detecting CXX compiler ABI info
+[0.772s] -- Detecting CXX compiler ABI info - done
+[0.783s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.784s] -- Detecting CXX compile features
+[0.785s] -- Detecting CXX compile features - done
+[0.790s] -- Found ament_cmake: 2.0.5 (/opt/ros/iron/share/ament_cmake/cmake)
+[0.988s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.061s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.123s] -- Found rclcpp: 21.0.6 (/opt/ros/iron/share/rclcpp/cmake)
+[1.198s] -- Found rosidl_generator_c: 4.0.1 (/opt/ros/iron/share/rosidl_generator_c/cmake)
+[1.219s] -- Found rosidl_generator_cpp: 4.0.1 (/opt/ros/iron/share/rosidl_generator_cpp/cmake)
+[1.246s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.278s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.521s] -- Found rmw_implementation_cmake: 7.1.0 (/opt/ros/iron/share/rmw_implementation_cmake/cmake)
+[1.526s] -- Found rmw_cyclonedds_cpp: 1.6.0 (/opt/ros/iron/share/rmw_cyclonedds_cpp/cmake)
+[1.582s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[1.814s] -- Found moveit_ros_planning_interface: 2.8.0 (/opt/ros/iron/share/moveit_ros_planning_interface/cmake)
+[2.021s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: date_time filesystem program_options system thread 
+[3.672s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: chrono date_time filesystem iostreams program_options regex serialization system thread 
+[3.737s] -- Found parameter_traits: 0.3.8 (/opt/ros/iron/share/parameter_traits/cmake)
+[3.763s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[3.768s] -- Found rclcpp_lifecycle: 21.0.6 (/opt/ros/iron/share/rclcpp_lifecycle/cmake)
+[3.917s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: filesystem 
+[4.033s] -- library: /usr/lib/x86_64-linux-gnu/libcurl.so
+[4.272s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.061s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread chrono 
+[5.796s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread system filesystem regex date_time program_options 
+[6.151s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: system filesystem date_time program_options thread 
+[6.570s] -- Found ariac_msgs: 2024.4.1 (/overlay_ws/install/ariac_msgs/share/ariac_msgs/cmake)
+[6.832s] -- Configuring done
+[6.887s] -- Generating done
+[6.889s] -- Build files have been written to: /overlay_ws/build/nist_competitor
+[6.903s] Invoked command in '/overlay_ws/build/nist_competitor' returned '0': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake /overlay_ws/src/nist_competitor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/overlay_ws/install/nist_competitor
+[6.904s] Invoking command in '/overlay_ws/build/nist_competitor': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /overlay_ws/build/nist_competitor -- -j12 -l12
+[6.952s] [ 25%] [32mBuilding CXX object CMakeFiles/nist_competitor.dir/src/nist_competitor.cpp.o[0m
+[46.971s] [ 50%] [32m[1mLinking CXX shared library libnist_competitor.so[0m
+[50.307s] [ 50%] Built target nist_competitor
+[50.327s] [ 75%] [32mBuilding CXX object CMakeFiles/competitor.dir/src/competitor.cpp.o[0m
+[61.277s] [100%] [32m[1mLinking CXX executable competitor[0m
+[62.679s] [100%] Built target competitor
+[62.688s] Invoked command in '/overlay_ws/build/nist_competitor' returned '0': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /overlay_ws/build/nist_competitor -- -j12 -l12
+[62.718s] Invoking command in '/overlay_ws/build/nist_competitor': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /overlay_ws/build/nist_competitor
+[62.725s] -- Install configuration: ""
+[62.726s] -- Execute custom install script
+[62.726s] -- Symlinking: /overlay_ws/install/nist_competitor/lib/nist_competitor/competitor
+[62.735s] -- Symlinking: /overlay_ws/install/nist_competitor/lib/libnist_competitor.so
+[62.744s] -- Symlinking: /overlay_ws/install/nist_competitor/include/nist_competitor/nist_competitor.hpp
+[62.757s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/config/sensors.yaml
+[62.766s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/launch/competition.launch.py
+[62.776s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/launch/competitor.launch.py
+[62.785s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/meshes/assembly_insert.stl
+[62.794s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/meshes/assembly_station.stl
+[62.803s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/meshes/battery.stl
+[62.815s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/meshes/bin.stl
+[62.822s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/meshes/conveyor.stl
+[62.830s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/meshes/kit_tray.stl
+[62.838s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/meshes/kit_tray_table.stl
+[62.847s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/meshes/pump.stl
+[62.856s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/meshes/regulator.stl
+[62.865s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/meshes/sensor.stl
+[62.874s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/rviz/nist_competitor.rviz
+[62.882s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/environment/library_path.sh
+[62.889s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/environment/library_path.dsv
+[62.898s] -- Symlinking: /overlay_ws/install/nist_competitor/share/ament_index/resource_index/package_run_dependencies/nist_competitor
+[62.908s] -- Symlinking: /overlay_ws/install/nist_competitor/share/ament_index/resource_index/parent_prefix_path/nist_competitor
+[62.916s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/environment/ament_prefix_path.sh
+[62.926s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/environment/ament_prefix_path.dsv
+[62.935s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/environment/path.sh
+[62.946s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/environment/path.dsv
+[62.956s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/local_setup.bash
+[62.966s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/local_setup.sh
+[62.977s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/local_setup.zsh
+[62.988s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/local_setup.dsv
+[62.998s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/package.dsv
+[63.008s] -- Symlinking: /overlay_ws/install/nist_competitor/share/ament_index/resource_index/packages/nist_competitor
+[63.016s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/cmake/ament_cmake_export_libraries-extras.cmake
+[63.024s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/cmake/ament_cmake_export_include_directories-extras.cmake
+[63.033s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/cmake/ament_cmake_export_dependencies-extras.cmake
+[63.041s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/cmake/nist_competitorConfig.cmake
+[63.051s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/cmake/nist_competitorConfig-version.cmake
+[63.059s] -- Symlinking: /overlay_ws/install/nist_competitor/share/nist_competitor/package.xml
+[63.070s] Invoked command in '/overlay_ws/build/nist_competitor' returned '0': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /overlay_ws/build/nist_competitor

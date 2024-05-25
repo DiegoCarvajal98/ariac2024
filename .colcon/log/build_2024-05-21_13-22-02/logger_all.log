@@ -1,0 +1,828 @@
+[0.183s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.183s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x73984fd60880>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73984fe68fa0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73984fe68fa0>>, mixin_verb=('build',))
+[0.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.691s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.691s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/overlay_ws'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.692s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.702s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.703s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC) by extensions ['ignore', 'ignore_ament_install']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC) by extension 'ignore'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC) by extension 'ignore_ament_install'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC) by extensions ['colcon_pkg']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC) by extension 'colcon_pkg'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC) by extensions ['colcon_meta']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC) by extension 'colcon_meta'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC) by extensions ['ros']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC) by extension 'ros'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC) by extensions ['cmake', 'python']
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC) by extension 'cmake'
+[0.704s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC) by extension 'python'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC) by extensions ['python_setup_py']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC) by extension 'python_setup_py'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_controllers) by extensions ['ignore', 'ignore_ament_install']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_controllers) by extension 'ignore'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_controllers) by extension 'ignore_ament_install'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_controllers) by extensions ['colcon_pkg']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_controllers) by extension 'colcon_pkg'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_controllers) by extensions ['colcon_meta']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_controllers) by extension 'colcon_meta'
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_controllers) by extensions ['ros']
+[0.705s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_controllers) by extension 'ros'
+[0.708s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ARIAC/ariac_controllers' with type 'ros.ament_cmake' and name 'ariac_controllers'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_description) by extensions ['ignore', 'ignore_ament_install']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_description) by extension 'ignore'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_description) by extension 'ignore_ament_install'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_description) by extensions ['colcon_pkg']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_description) by extension 'colcon_pkg'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_description) by extensions ['colcon_meta']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_description) by extension 'colcon_meta'
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_description) by extensions ['ros']
+[0.708s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_description) by extension 'ros'
+[0.709s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ARIAC/ariac_description' with type 'ros.ament_cmake' and name 'ariac_description'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_gazebo) by extensions ['ignore', 'ignore_ament_install']
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_gazebo) by extension 'ignore'
+[0.709s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_gazebo) by extension 'ignore_ament_install'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_gazebo) by extensions ['colcon_pkg']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_gazebo) by extension 'colcon_pkg'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_gazebo) by extensions ['colcon_meta']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_gazebo) by extension 'colcon_meta'
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_gazebo) by extensions ['ros']
+[0.710s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_gazebo) by extension 'ros'
+[0.711s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ARIAC/ariac_gazebo' with type 'ros.ament_cmake' and name 'ariac_gazebo'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_gui) by extensions ['ignore', 'ignore_ament_install']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_gui) by extension 'ignore'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_gui) by extension 'ignore_ament_install'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_gui) by extensions ['colcon_pkg']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_gui) by extension 'colcon_pkg'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_gui) by extensions ['colcon_meta']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_gui) by extension 'colcon_meta'
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_gui) by extensions ['ros']
+[0.711s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_gui) by extension 'ros'
+[0.712s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ARIAC/ariac_gui' with type 'ros.ament_python' and name 'ariac_gui'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log) by extensions ['ignore', 'ignore_ament_install']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log) by extension 'ignore'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log) by extension 'ignore_ament_install'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log) by extensions ['colcon_pkg']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log) by extension 'colcon_pkg'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log) by extensions ['colcon_meta']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log) by extension 'colcon_meta'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log) by extensions ['ros']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log) by extension 'ros'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log) by extensions ['cmake', 'python']
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log) by extension 'cmake'
+[0.712s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log) by extension 'python'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log) by extensions ['python_setup_py']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log) by extension 'python_setup_py'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_19_47) by extensions ['ignore', 'ignore_ament_install']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_19_47) by extension 'ignore'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_19_47) by extension 'ignore_ament_install'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_19_47) by extensions ['colcon_pkg']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_19_47) by extension 'colcon_pkg'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_19_47) by extensions ['colcon_meta']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_19_47) by extension 'colcon_meta'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_19_47) by extensions ['ros']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_19_47) by extension 'ros'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_19_47) by extensions ['cmake', 'python']
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_19_47) by extension 'cmake'
+[0.713s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_19_47) by extension 'python'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_19_47) by extensions ['python_setup_py']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_19_47) by extension 'python_setup_py'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_20_31) by extensions ['ignore', 'ignore_ament_install']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_20_31) by extension 'ignore'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_20_31) by extension 'ignore_ament_install'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_20_31) by extensions ['colcon_pkg']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_20_31) by extension 'colcon_pkg'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_20_31) by extensions ['colcon_meta']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_20_31) by extension 'colcon_meta'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_20_31) by extensions ['ros']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_20_31) by extension 'ros'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_20_31) by extensions ['cmake', 'python']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_20_31) by extension 'cmake'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_20_31) by extension 'python'
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_20_31) by extensions ['python_setup_py']
+[0.714s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_log/kitting_2024_05_17_19_20_31) by extension 'python_setup_py'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_moveit_config) by extensions ['ignore', 'ignore_ament_install']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_moveit_config) by extension 'ignore'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_moveit_config) by extension 'ignore_ament_install'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_moveit_config) by extensions ['colcon_pkg']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_moveit_config) by extension 'colcon_pkg'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_moveit_config) by extensions ['colcon_meta']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_moveit_config) by extension 'colcon_meta'
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_moveit_config) by extensions ['ros']
+[0.715s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_moveit_config) by extension 'ros'
+[0.716s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ARIAC/ariac_moveit_config' with type 'ros.ament_cmake' and name 'ariac_moveit_config'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_msgs) by extension 'ignore'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_msgs) by extension 'ignore_ament_install'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_msgs) by extensions ['colcon_pkg']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_msgs) by extension 'colcon_pkg'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_msgs) by extensions ['colcon_meta']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_msgs) by extension 'colcon_meta'
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_msgs) by extensions ['ros']
+[0.716s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_msgs) by extension 'ros'
+[0.717s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ARIAC/ariac_msgs' with type 'ros.ament_cmake' and name 'ariac_msgs'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_plugins) by extensions ['ignore', 'ignore_ament_install']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_plugins) by extension 'ignore'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_plugins) by extension 'ignore_ament_install'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_plugins) by extensions ['colcon_pkg']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_plugins) by extension 'colcon_pkg'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_plugins) by extensions ['colcon_meta']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_plugins) by extension 'colcon_meta'
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_plugins) by extensions ['ros']
+[0.718s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_plugins) by extension 'ros'
+[0.719s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ARIAC/ariac_plugins' with type 'ros.ament_cmake' and name 'ariac_plugins'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_sensors) by extensions ['ignore', 'ignore_ament_install']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_sensors) by extension 'ignore'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_sensors) by extension 'ignore_ament_install'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_sensors) by extensions ['colcon_pkg']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_sensors) by extension 'colcon_pkg'
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_sensors) by extensions ['colcon_meta']
+[0.719s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_sensors) by extension 'colcon_meta'
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_sensors) by extensions ['ros']
+[0.720s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/ariac_sensors) by extension 'ros'
+[0.721s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ARIAC/ariac_sensors' with type 'ros.ament_cmake' and name 'ariac_sensors'
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/my_competitor_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.721s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/my_competitor_pkg) by extension 'ignore'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/my_competitor_pkg) by extension 'ignore_ament_install'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/my_competitor_pkg) by extensions ['colcon_pkg']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/my_competitor_pkg) by extension 'colcon_pkg'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/my_competitor_pkg) by extensions ['colcon_meta']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/my_competitor_pkg) by extension 'colcon_meta'
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/my_competitor_pkg) by extensions ['ros']
+[0.722s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/my_competitor_pkg) by extension 'ros'
+[0.723s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ARIAC/my_competitor_pkg' with type 'ros.ament_cmake' and name 'my_competitor_pkg'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/resource) by extensions ['ignore', 'ignore_ament_install']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/resource) by extension 'ignore'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/resource) by extension 'ignore_ament_install'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/resource) by extensions ['colcon_pkg']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/resource) by extension 'colcon_pkg'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/resource) by extensions ['colcon_meta']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/resource) by extension 'colcon_meta'
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/resource) by extensions ['ros']
+[0.723s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/resource) by extension 'ros'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/resource) by extensions ['cmake', 'python']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/resource) by extension 'cmake'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/resource) by extension 'python'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/resource) by extensions ['python_setup_py']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/ARIAC/resource) by extension 'python_setup_py'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/nist_competitor) by extensions ['ignore', 'ignore_ament_install']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/nist_competitor) by extension 'ignore'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/nist_competitor) by extension 'ignore_ament_install'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/nist_competitor) by extensions ['colcon_pkg']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/nist_competitor) by extension 'colcon_pkg'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/nist_competitor) by extensions ['colcon_meta']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/nist_competitor) by extension 'colcon_meta'
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/nist_competitor) by extensions ['ros']
+[0.724s] Level 1:colcon.colcon_core.package_identification:_identify(src/nist_competitor) by extension 'ros'
+[0.726s] DEBUG:colcon.colcon_core.package_identification:Package 'src/nist_competitor' with type 'ros.ament_cmake' and name 'nist_competitor'
+[0.726s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.726s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.726s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.726s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.726s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'ariac_controllers' build argument 'cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'ariac_controllers' build argument 'cmake_target' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'ariac_controllers' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'ariac_controllers' build argument 'cmake_clean_cache' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'ariac_controllers' build argument 'cmake_clean_first' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'ariac_controllers' build argument 'cmake_force_configure' from command line to 'False'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'ariac_controllers' build argument 'ament_cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'ariac_controllers' build argument 'catkin_cmake_args' from command line to 'None'
+[0.820s] Level 5:colcon.colcon_core.verb:set package 'ariac_controllers' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.820s] DEBUG:colcon.colcon_core.verb:Building package 'ariac_controllers' with the following arguments: {'ament_cmake_args': None, 'build_base': '/overlay_ws/build/ariac_controllers', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/overlay_ws/install/ariac_controllers', 'merge_install': False, 'path': '/overlay_ws/src/ARIAC/ariac_controllers', 'symlink_install': True, 'test_result_base': None}
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'ariac_description' build argument 'cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'ariac_description' build argument 'cmake_target' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'ariac_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'ariac_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'ariac_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'ariac_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'ariac_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'ariac_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'ariac_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.821s] DEBUG:colcon.colcon_core.verb:Building package 'ariac_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/overlay_ws/build/ariac_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/overlay_ws/install/ariac_description', 'merge_install': False, 'path': '/overlay_ws/src/ARIAC/ariac_description', 'symlink_install': True, 'test_result_base': None}
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'ariac_gazebo' build argument 'cmake_args' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'ariac_gazebo' build argument 'cmake_target' from command line to 'None'
+[0.821s] Level 5:colcon.colcon_core.verb:set package 'ariac_gazebo' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'ariac_gazebo' build argument 'cmake_clean_cache' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'ariac_gazebo' build argument 'cmake_clean_first' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'ariac_gazebo' build argument 'cmake_force_configure' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'ariac_gazebo' build argument 'ament_cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'ariac_gazebo' build argument 'catkin_cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'ariac_gazebo' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.822s] DEBUG:colcon.colcon_core.verb:Building package 'ariac_gazebo' with the following arguments: {'ament_cmake_args': None, 'build_base': '/overlay_ws/build/ariac_gazebo', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/overlay_ws/install/ariac_gazebo', 'merge_install': False, 'path': '/overlay_ws/src/ARIAC/ariac_gazebo', 'symlink_install': True, 'test_result_base': None}
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'ariac_moveit_config' build argument 'cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'ariac_moveit_config' build argument 'cmake_target' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'ariac_moveit_config' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'ariac_moveit_config' build argument 'cmake_clean_cache' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'ariac_moveit_config' build argument 'cmake_clean_first' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'ariac_moveit_config' build argument 'cmake_force_configure' from command line to 'False'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'ariac_moveit_config' build argument 'ament_cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'ariac_moveit_config' build argument 'catkin_cmake_args' from command line to 'None'
+[0.822s] Level 5:colcon.colcon_core.verb:set package 'ariac_moveit_config' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.822s] DEBUG:colcon.colcon_core.verb:Building package 'ariac_moveit_config' with the following arguments: {'ament_cmake_args': None, 'build_base': '/overlay_ws/build/ariac_moveit_config', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/overlay_ws/install/ariac_moveit_config', 'merge_install': False, 'path': '/overlay_ws/src/ARIAC/ariac_moveit_config', 'symlink_install': True, 'test_result_base': None}
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'ariac_msgs' build argument 'cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'ariac_msgs' build argument 'cmake_target' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'ariac_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'ariac_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'ariac_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'ariac_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'ariac_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'ariac_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'ariac_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.823s] DEBUG:colcon.colcon_core.verb:Building package 'ariac_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/overlay_ws/build/ariac_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/overlay_ws/install/ariac_msgs', 'merge_install': False, 'path': '/overlay_ws/src/ARIAC/ariac_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'my_competitor_pkg' build argument 'cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'my_competitor_pkg' build argument 'cmake_target' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'my_competitor_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'my_competitor_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'my_competitor_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'my_competitor_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'my_competitor_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'my_competitor_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[0.823s] Level 5:colcon.colcon_core.verb:set package 'my_competitor_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.824s] DEBUG:colcon.colcon_core.verb:Building package 'my_competitor_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/overlay_ws/build/my_competitor_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/overlay_ws/install/my_competitor_pkg', 'merge_install': False, 'path': '/overlay_ws/src/ARIAC/my_competitor_pkg', 'symlink_install': True, 'test_result_base': None}
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'ariac_gui' build argument 'cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'ariac_gui' build argument 'cmake_target' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'ariac_gui' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'ariac_gui' build argument 'cmake_clean_cache' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'ariac_gui' build argument 'cmake_clean_first' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'ariac_gui' build argument 'cmake_force_configure' from command line to 'False'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'ariac_gui' build argument 'ament_cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'ariac_gui' build argument 'catkin_cmake_args' from command line to 'None'
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'ariac_gui' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.824s] DEBUG:colcon.colcon_core.verb:Building package 'ariac_gui' with the following arguments: {'ament_cmake_args': None, 'build_base': '/overlay_ws/build/ariac_gui', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/overlay_ws/install/ariac_gui', 'merge_install': False, 'path': '/overlay_ws/src/ARIAC/ariac_gui', 'symlink_install': True, 'test_result_base': None}
+[0.824s] Level 5:colcon.colcon_core.verb:set package 'ariac_plugins' build argument 'cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ariac_plugins' build argument 'cmake_target' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ariac_plugins' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ariac_plugins' build argument 'cmake_clean_cache' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ariac_plugins' build argument 'cmake_clean_first' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ariac_plugins' build argument 'cmake_force_configure' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ariac_plugins' build argument 'ament_cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ariac_plugins' build argument 'catkin_cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ariac_plugins' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.825s] DEBUG:colcon.colcon_core.verb:Building package 'ariac_plugins' with the following arguments: {'ament_cmake_args': None, 'build_base': '/overlay_ws/build/ariac_plugins', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/overlay_ws/install/ariac_plugins', 'merge_install': False, 'path': '/overlay_ws/src/ARIAC/ariac_plugins', 'symlink_install': True, 'test_result_base': None}
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ariac_sensors' build argument 'cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ariac_sensors' build argument 'cmake_target' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ariac_sensors' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ariac_sensors' build argument 'cmake_clean_cache' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ariac_sensors' build argument 'cmake_clean_first' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ariac_sensors' build argument 'cmake_force_configure' from command line to 'False'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ariac_sensors' build argument 'ament_cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ariac_sensors' build argument 'catkin_cmake_args' from command line to 'None'
+[0.825s] Level 5:colcon.colcon_core.verb:set package 'ariac_sensors' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.825s] DEBUG:colcon.colcon_core.verb:Building package 'ariac_sensors' with the following arguments: {'ament_cmake_args': None, 'build_base': '/overlay_ws/build/ariac_sensors', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/overlay_ws/install/ariac_sensors', 'merge_install': False, 'path': '/overlay_ws/src/ARIAC/ariac_sensors', 'symlink_install': True, 'test_result_base': None}
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'nist_competitor' build argument 'cmake_args' from command line to 'None'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'nist_competitor' build argument 'cmake_target' from command line to 'None'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'nist_competitor' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'nist_competitor' build argument 'cmake_clean_cache' from command line to 'False'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'nist_competitor' build argument 'cmake_clean_first' from command line to 'False'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'nist_competitor' build argument 'cmake_force_configure' from command line to 'False'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'nist_competitor' build argument 'ament_cmake_args' from command line to 'None'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'nist_competitor' build argument 'catkin_cmake_args' from command line to 'None'
+[0.826s] Level 5:colcon.colcon_core.verb:set package 'nist_competitor' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.826s] DEBUG:colcon.colcon_core.verb:Building package 'nist_competitor' with the following arguments: {'ament_cmake_args': None, 'build_base': '/overlay_ws/build/nist_competitor', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/overlay_ws/install/nist_competitor', 'merge_install': False, 'path': '/overlay_ws/src/nist_competitor', 'symlink_install': True, 'test_result_base': None}
+[0.826s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.834s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.834s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/overlay_ws/src/ARIAC/ariac_msgs' with build type 'ament_cmake'
+[0.834s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/overlay_ws/src/ARIAC/ariac_msgs'
+[0.838s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.838s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.838s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.865s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/overlay_ws/src/ARIAC/ariac_controllers' with build type 'ament_cmake'
+[0.866s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/overlay_ws/src/ARIAC/ariac_controllers'
+[0.867s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.867s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.875s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/overlay_ws/src/ARIAC/ariac_description' with build type 'ament_cmake'
+[0.875s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/overlay_ws/src/ARIAC/ariac_description'
+[0.875s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.875s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.879s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/overlay_ws/src/ARIAC/ariac_gazebo' with build type 'ament_cmake'
+[0.879s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/overlay_ws/src/ARIAC/ariac_gazebo'
+[0.880s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.880s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.884s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/overlay_ws/src/ARIAC/ariac_moveit_config' with build type 'ament_cmake'
+[0.884s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/overlay_ws/src/ARIAC/ariac_moveit_config'
+[0.884s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.885s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.888s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/overlay_ws/src/ARIAC/my_competitor_pkg' with build type 'ament_cmake'
+[0.888s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/overlay_ws/src/ARIAC/my_competitor_pkg'
+[0.889s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.889s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.898s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/ariac_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --build /overlay_ws/build/ariac_msgs -- -j12 -l12
+[0.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/ariac_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --build /overlay_ws/build/ariac_controllers -- -j12 -l12
+[0.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/ariac_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --build /overlay_ws/build/ariac_description -- -j12 -l12
+[0.908s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/ariac_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --build /overlay_ws/build/ariac_gazebo -- -j12 -l12
+[0.914s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/ariac_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --build /overlay_ws/build/ariac_moveit_config -- -j12 -l12
+[0.918s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/my_competitor_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake /overlay_ws/src/ARIAC/my_competitor_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/overlay_ws/install/my_competitor_pkg
+[0.952s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/ariac_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --build /overlay_ws/build/ariac_description -- -j12 -l12
+[0.960s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/ariac_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --build /overlay_ws/build/ariac_moveit_config -- -j12 -l12
+[0.990s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/ariac_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --install /overlay_ws/build/ariac_description
+[0.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/ariac_moveit_config': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --install /overlay_ws/build/ariac_moveit_config
+[1.032s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ariac_moveit_config)
+[1.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/ariac_moveit_config' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --install /overlay_ws/build/ariac_moveit_config
+[1.041s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_moveit_config' for CMake module files
+[1.042s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_moveit_config' for CMake config files
+[1.043s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_moveit_config', 'cmake_prefix_path')
+[1.043s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/hook/cmake_prefix_path.ps1'
+[1.044s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/hook/cmake_prefix_path.dsv'
+[1.045s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/hook/cmake_prefix_path.sh'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_moveit_config/bin'
+[1.047s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_moveit_config/lib/pkgconfig/ariac_moveit_config.pc'
+[1.050s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_moveit_config/lib/python3.10/site-packages'
+[1.051s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_moveit_config/bin'
+[1.051s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/package.ps1'
+[1.053s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/package.dsv'
+[1.054s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/package.sh'
+[1.055s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/package.bash'
+[1.057s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/package.zsh'
+[1.058s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/ariac_moveit_config/share/colcon-core/packages/ariac_moveit_config)
+[1.061s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ariac_description)
+[1.062s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_description' for CMake module files
+[1.063s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/ariac_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --install /overlay_ws/build/ariac_description
+[1.063s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_description' for CMake config files
+[1.064s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_description', 'cmake_prefix_path')
+[1.064s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_description/share/ariac_description/hook/cmake_prefix_path.ps1'
+[1.065s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_description/share/ariac_description/hook/cmake_prefix_path.dsv'
+[1.066s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_description/share/ariac_description/hook/cmake_prefix_path.sh'
+[1.066s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_description/bin'
+[1.067s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_description/lib/pkgconfig/ariac_description.pc'
+[1.067s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_description/lib/python3.10/site-packages'
+[1.067s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_description/bin'
+[1.068s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_description/share/ariac_description/package.ps1'
+[1.069s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/ariac_description/share/ariac_description/package.dsv'
+[1.070s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_description/share/ariac_description/package.sh'
+[1.071s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_description/share/ariac_description/package.bash'
+[1.071s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_description/share/ariac_description/package.zsh'
+[1.072s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/ariac_description/share/colcon-core/packages/ariac_description)
+[1.074s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/ariac_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --build /overlay_ws/build/ariac_controllers -- -j12 -l12
+[1.100s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ariac_moveit_config)
+[1.100s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_moveit_config' for CMake module files
+[1.102s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_moveit_config' for CMake config files
+[1.102s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_moveit_config', 'cmake_prefix_path')
+[1.102s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/hook/cmake_prefix_path.ps1'
+[1.103s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/hook/cmake_prefix_path.dsv'
+[1.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/hook/cmake_prefix_path.sh'
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_moveit_config/bin'
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_moveit_config/lib/pkgconfig/ariac_moveit_config.pc'
+[1.105s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_moveit_config/lib/python3.10/site-packages'
+[1.106s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_moveit_config/bin'
+[1.107s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/package.ps1'
+[1.108s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/package.dsv'
+[1.109s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/package.sh'
+[1.110s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/package.bash'
+[1.111s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_moveit_config/share/ariac_moveit_config/package.zsh'
+[1.111s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/ariac_moveit_config/share/colcon-core/packages/ariac_moveit_config)
+[1.115s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ariac_description)
+[1.115s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_description' for CMake module files
+[1.117s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_description' for CMake config files
+[1.117s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_description', 'cmake_prefix_path')
+[1.118s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_description/share/ariac_description/hook/cmake_prefix_path.ps1'
+[1.118s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_description/share/ariac_description/hook/cmake_prefix_path.dsv'
+[1.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_description/share/ariac_description/hook/cmake_prefix_path.sh'
+[1.120s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_description/bin'
+[1.120s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_description/lib/pkgconfig/ariac_description.pc'
+[1.120s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_description/lib/python3.10/site-packages'
+[1.121s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_description/bin'
+[1.121s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_description/share/ariac_description/package.ps1'
+[1.123s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/ariac_description/share/ariac_description/package.dsv'
+[1.123s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_description/share/ariac_description/package.sh'
+[1.124s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_description/share/ariac_description/package.bash'
+[1.125s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_description/share/ariac_description/package.zsh'
+[1.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/ariac_description/share/colcon-core/packages/ariac_description)
+[1.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/ariac_controllers': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --install /overlay_ws/build/ariac_controllers
+[1.183s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ariac_controllers)
+[1.183s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_controllers' for CMake module files
+[1.184s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/ariac_controllers' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --install /overlay_ws/build/ariac_controllers
+[1.185s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_controllers' for CMake config files
+[1.186s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_controllers', 'cmake_prefix_path')
+[1.186s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_controllers/share/ariac_controllers/hook/cmake_prefix_path.ps1'
+[1.187s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_controllers/share/ariac_controllers/hook/cmake_prefix_path.dsv'
+[1.187s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_controllers/share/ariac_controllers/hook/cmake_prefix_path.sh'
+[1.188s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_controllers/lib'
+[1.188s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_controllers', 'ld_library_path_lib')
+[1.189s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_controllers/share/ariac_controllers/hook/ld_library_path_lib.ps1'
+[1.189s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_controllers/share/ariac_controllers/hook/ld_library_path_lib.dsv'
+[1.190s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_controllers/share/ariac_controllers/hook/ld_library_path_lib.sh'
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_controllers/bin'
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_controllers/lib/pkgconfig/ariac_controllers.pc'
+[1.191s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_controllers/lib/python3.10/site-packages'
+[1.192s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_controllers/bin'
+[1.192s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_controllers/share/ariac_controllers/package.ps1'
+[1.193s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/ariac_controllers/share/ariac_controllers/package.dsv'
+[1.194s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_controllers/share/ariac_controllers/package.sh'
+[1.194s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_controllers/share/ariac_controllers/package.bash'
+[1.195s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_controllers/share/ariac_controllers/package.zsh'
+[1.196s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/ariac_controllers/share/colcon-core/packages/ariac_controllers)
+[1.235s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ariac_controllers)
+[1.236s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_controllers' for CMake module files
+[1.237s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_controllers' for CMake config files
+[1.238s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_controllers', 'cmake_prefix_path')
+[1.238s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_controllers/share/ariac_controllers/hook/cmake_prefix_path.ps1'
+[1.239s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_controllers/share/ariac_controllers/hook/cmake_prefix_path.dsv'
+[1.239s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_controllers/share/ariac_controllers/hook/cmake_prefix_path.sh'
+[1.240s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_controllers/lib'
+[1.241s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_controllers', 'ld_library_path_lib')
+[1.241s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_controllers/share/ariac_controllers/hook/ld_library_path_lib.ps1'
+[1.242s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_controllers/share/ariac_controllers/hook/ld_library_path_lib.dsv'
+[1.242s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_controllers/share/ariac_controllers/hook/ld_library_path_lib.sh'
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_controllers/bin'
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_controllers/lib/pkgconfig/ariac_controllers.pc'
+[1.243s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_controllers/lib/python3.10/site-packages'
+[1.244s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_controllers/bin'
+[1.245s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_controllers/share/ariac_controllers/package.ps1'
+[1.246s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/ariac_controllers/share/ariac_controllers/package.dsv'
+[1.246s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_controllers/share/ariac_controllers/package.sh'
+[1.247s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_controllers/share/ariac_controllers/package.bash'
+[1.248s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_controllers/share/ariac_controllers/package.zsh'
+[1.248s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/ariac_controllers/share/colcon-core/packages/ariac_controllers)
+[1.639s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/ariac_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --build /overlay_ws/build/ariac_gazebo -- -j12 -l12
+[1.679s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/ariac_gazebo': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --install /overlay_ws/build/ariac_gazebo
+[1.933s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ariac_gazebo)
+[1.934s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_gazebo' for CMake module files
+[1.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/ariac_gazebo' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --install /overlay_ws/build/ariac_gazebo
+[1.935s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_gazebo' for CMake config files
+[1.936s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_gazebo', 'cmake_prefix_path')
+[1.937s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_gazebo/share/ariac_gazebo/hook/cmake_prefix_path.ps1'
+[1.938s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_gazebo/share/ariac_gazebo/hook/cmake_prefix_path.dsv'
+[1.938s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_gazebo/share/ariac_gazebo/hook/cmake_prefix_path.sh'
+[1.939s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_gazebo/lib'
+[1.939s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_gazebo/bin'
+[1.939s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_gazebo/lib/pkgconfig/ariac_gazebo.pc'
+[1.940s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages'
+[1.940s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_gazebo', 'pythonpath')
+[1.940s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_gazebo/share/ariac_gazebo/hook/pythonpath.ps1'
+[1.941s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_gazebo/share/ariac_gazebo/hook/pythonpath.dsv'
+[1.942s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_gazebo/share/ariac_gazebo/hook/pythonpath.sh'
+[1.943s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_gazebo/bin'
+[1.943s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_gazebo/share/ariac_gazebo/package.ps1'
+[1.944s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/ariac_gazebo/share/ariac_gazebo/package.dsv'
+[1.945s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_gazebo/share/ariac_gazebo/package.sh'
+[1.946s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_gazebo/share/ariac_gazebo/package.bash'
+[1.946s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_gazebo/share/ariac_gazebo/package.zsh'
+[1.947s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/ariac_gazebo/share/colcon-core/packages/ariac_gazebo)
+[1.950s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/ariac_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --build /overlay_ws/build/ariac_msgs -- -j12 -l12
+[1.985s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ariac_gazebo)
+[1.985s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_gazebo' for CMake module files
+[1.986s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_gazebo' for CMake config files
+[1.986s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_gazebo', 'cmake_prefix_path')
+[1.987s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_gazebo/share/ariac_gazebo/hook/cmake_prefix_path.ps1'
+[1.987s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_gazebo/share/ariac_gazebo/hook/cmake_prefix_path.dsv'
+[1.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_gazebo/share/ariac_gazebo/hook/cmake_prefix_path.sh'
+[1.989s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_gazebo/lib'
+[1.989s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_gazebo/bin'
+[1.989s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_gazebo/lib/pkgconfig/ariac_gazebo.pc'
+[1.989s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages'
+[1.989s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_gazebo', 'pythonpath')
+[1.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_gazebo/share/ariac_gazebo/hook/pythonpath.ps1'
+[1.990s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_gazebo/share/ariac_gazebo/hook/pythonpath.dsv'
+[1.990s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_gazebo/share/ariac_gazebo/hook/pythonpath.sh'
+[1.991s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_gazebo/bin'
+[1.992s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_gazebo/share/ariac_gazebo/package.ps1'
+[1.992s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/ariac_gazebo/share/ariac_gazebo/package.dsv'
+[1.993s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_gazebo/share/ariac_gazebo/package.sh'
+[1.993s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_gazebo/share/ariac_gazebo/package.bash'
+[1.994s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_gazebo/share/ariac_gazebo/package.zsh'
+[1.994s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/ariac_gazebo/share/colcon-core/packages/ariac_gazebo)
+[2.837s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/my_competitor_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake /overlay_ws/src/ARIAC/my_competitor_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/overlay_ws/install/my_competitor_pkg
+[2.838s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/my_competitor_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --build /overlay_ws/build/my_competitor_pkg -- -j12 -l12
+[2.893s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/my_competitor_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --build /overlay_ws/build/my_competitor_pkg -- -j12 -l12
+[2.925s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/my_competitor_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --install /overlay_ws/build/my_competitor_pkg
+[3.112s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_competitor_pkg)
+[3.113s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/my_competitor_pkg' for CMake module files
+[3.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/my_competitor_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --install /overlay_ws/build/my_competitor_pkg
+[3.113s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/my_competitor_pkg' for CMake config files
+[3.114s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_competitor_pkg', 'cmake_prefix_path')
+[3.114s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/hook/cmake_prefix_path.ps1'
+[3.115s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/hook/cmake_prefix_path.dsv'
+[3.115s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/hook/cmake_prefix_path.sh'
+[3.116s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/my_competitor_pkg/bin'
+[3.116s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/my_competitor_pkg/lib/pkgconfig/my_competitor_pkg.pc'
+[3.116s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/my_competitor_pkg/lib/python3.10/site-packages'
+[3.116s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/my_competitor_pkg/bin'
+[3.117s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/package.ps1'
+[3.117s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/package.dsv'
+[3.117s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/package.sh'
+[3.118s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/package.bash'
+[3.118s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/package.zsh'
+[3.119s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/my_competitor_pkg/share/colcon-core/packages/my_competitor_pkg)
+[3.148s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_competitor_pkg)
+[3.148s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/my_competitor_pkg' for CMake module files
+[3.149s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/my_competitor_pkg' for CMake config files
+[3.149s] Level 1:colcon.colcon_core.shell:create_environment_hook('my_competitor_pkg', 'cmake_prefix_path')
+[3.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/hook/cmake_prefix_path.ps1'
+[3.150s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/hook/cmake_prefix_path.dsv'
+[3.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/hook/cmake_prefix_path.sh'
+[3.150s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/my_competitor_pkg/bin'
+[3.151s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/my_competitor_pkg/lib/pkgconfig/my_competitor_pkg.pc'
+[3.151s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/my_competitor_pkg/lib/python3.10/site-packages'
+[3.151s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/my_competitor_pkg/bin'
+[3.151s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/package.ps1'
+[3.152s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/package.dsv'
+[3.152s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/package.sh'
+[3.153s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/package.bash'
+[3.153s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/my_competitor_pkg/share/my_competitor_pkg/package.zsh'
+[3.154s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/my_competitor_pkg/share/colcon-core/packages/my_competitor_pkg)
+[3.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/ariac_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --install /overlay_ws/build/ariac_msgs
+[4.139s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ariac_msgs)
+[4.139s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_msgs' for CMake module files
+[4.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/ariac_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/overlay_ws/install/ariac_gui:/opt/ros/iron /usr/bin/cmake --install /overlay_ws/build/ariac_msgs
+[4.140s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_msgs' for CMake config files
+[4.145s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_msgs', 'cmake_prefix_path')
+[4.145s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_msgs/share/ariac_msgs/hook/cmake_prefix_path.ps1'
+[4.146s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_msgs/share/ariac_msgs/hook/cmake_prefix_path.dsv'
+[4.146s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_msgs/share/ariac_msgs/hook/cmake_prefix_path.sh'
+[4.147s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_msgs/lib'
+[4.147s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_msgs', 'ld_library_path_lib')
+[4.147s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_msgs/share/ariac_msgs/hook/ld_library_path_lib.ps1'
+[4.147s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_msgs/share/ariac_msgs/hook/ld_library_path_lib.dsv'
+[4.148s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_msgs/share/ariac_msgs/hook/ld_library_path_lib.sh'
+[4.148s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_msgs/bin'
+[4.148s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_msgs/lib/pkgconfig/ariac_msgs.pc'
+[4.149s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages'
+[4.149s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_msgs', 'pythonpath')
+[4.149s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_msgs/share/ariac_msgs/hook/pythonpath.ps1'
+[4.149s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_msgs/share/ariac_msgs/hook/pythonpath.dsv'
+[4.150s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_msgs/share/ariac_msgs/hook/pythonpath.sh'
+[4.150s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_msgs/bin'
+[4.151s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_msgs/share/ariac_msgs/package.ps1'
+[4.151s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/ariac_msgs/share/ariac_msgs/package.dsv'
+[4.152s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_msgs/share/ariac_msgs/package.sh'
+[4.152s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_msgs/share/ariac_msgs/package.bash'
+[4.152s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_msgs/share/ariac_msgs/package.zsh'
+[4.153s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/ariac_msgs/share/colcon-core/packages/ariac_msgs)
+[6.737s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ariac_msgs)
+[6.738s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_msgs' for CMake module files
+[6.741s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_msgs' for CMake config files
+[6.758s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_msgs', 'cmake_prefix_path')
+[6.759s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_msgs/share/ariac_msgs/hook/cmake_prefix_path.ps1'
+[6.761s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_msgs/share/ariac_msgs/hook/cmake_prefix_path.dsv'
+[6.762s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_msgs/share/ariac_msgs/hook/cmake_prefix_path.sh'
+[6.764s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_msgs/lib'
+[6.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_msgs', 'ld_library_path_lib')
+[6.766s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_msgs/share/ariac_msgs/hook/ld_library_path_lib.ps1'
+[6.767s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_msgs/share/ariac_msgs/hook/ld_library_path_lib.dsv'
+[6.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_msgs/share/ariac_msgs/hook/ld_library_path_lib.sh'
+[6.769s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_msgs/bin'
+[6.769s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_msgs/lib/pkgconfig/ariac_msgs.pc'
+[6.770s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages'
+[6.770s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_msgs', 'pythonpath')
+[6.771s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_msgs/share/ariac_msgs/hook/pythonpath.ps1'
+[6.772s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_msgs/share/ariac_msgs/hook/pythonpath.dsv'
+[6.772s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_msgs/share/ariac_msgs/hook/pythonpath.sh'
+[6.774s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_msgs/bin'
+[6.774s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_msgs/share/ariac_msgs/package.ps1'
+[6.775s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/ariac_msgs/share/ariac_msgs/package.dsv'
+[6.776s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_msgs/share/ariac_msgs/package.sh'
+[6.778s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_msgs/share/ariac_msgs/package.bash'
+[6.779s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_msgs/share/ariac_msgs/package.zsh'
+[6.779s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/ariac_msgs/share/colcon-core/packages/ariac_msgs)
+[6.780s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/overlay_ws/src/ARIAC/ariac_gui' with build type 'ament_python'
+[6.780s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_gui', 'ament_prefix_path')
+[6.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_gui/share/ariac_gui/hook/ament_prefix_path.ps1'
+[6.782s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_gui/share/ariac_gui/hook/ament_prefix_path.dsv'
+[6.782s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_gui/share/ariac_gui/hook/ament_prefix_path.sh'
+[6.783s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.784s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.789s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/overlay_ws/src/ARIAC/ariac_plugins' with build type 'ament_cmake'
+[6.790s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/overlay_ws/src/ARIAC/ariac_plugins'
+[6.790s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.790s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.795s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/overlay_ws/src/ARIAC/ariac_sensors' with build type 'ament_cmake'
+[6.795s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/overlay_ws/src/ARIAC/ariac_sensors'
+[6.795s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.795s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.799s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/overlay_ws/src/nist_competitor' with build type 'ament_cmake'
+[6.799s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/overlay_ws/src/nist_competitor'
+[6.800s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.800s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.055s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/overlay_ws/src/ARIAC/ariac_gui'
+[7.056s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[7.056s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[7.064s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/ariac_plugins': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /overlay_ws/build/ariac_plugins -- -j12 -l12
+[7.069s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/ariac_sensors': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /overlay_ws/build/ariac_sensors -- -j12 -l12
+[7.071s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/nist_competitor': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake /overlay_ws/src/nist_competitor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/overlay_ws/install/nist_competitor
+[7.342s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/ariac_sensors' returned '0': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /overlay_ws/build/ariac_sensors -- -j12 -l12
+[7.353s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/ariac_plugins' returned '0': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /overlay_ws/build/ariac_plugins -- -j12 -l12
+[7.402s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/ariac_sensors': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /overlay_ws/build/ariac_sensors
+[7.449s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ariac_sensors)
+[7.450s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_sensors' for CMake module files
+[7.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/ariac_plugins': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /overlay_ws/build/ariac_plugins
+[7.451s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/ariac_sensors' returned '0': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /overlay_ws/build/ariac_sensors
+[7.452s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_sensors' for CMake config files
+[7.452s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_sensors', 'cmake_prefix_path')
+[7.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_sensors/share/ariac_sensors/hook/cmake_prefix_path.ps1'
+[7.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_sensors/share/ariac_sensors/hook/cmake_prefix_path.dsv'
+[7.454s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_sensors/share/ariac_sensors/hook/cmake_prefix_path.sh'
+[7.454s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_sensors/lib'
+[7.454s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_sensors', 'ld_library_path_lib')
+[7.455s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_sensors/share/ariac_sensors/hook/ld_library_path_lib.ps1'
+[7.455s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_sensors/share/ariac_sensors/hook/ld_library_path_lib.dsv'
+[7.456s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_sensors/share/ariac_sensors/hook/ld_library_path_lib.sh'
+[7.456s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_sensors/bin'
+[7.456s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_sensors/lib/pkgconfig/ariac_sensors.pc'
+[7.456s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_sensors/lib/python3.10/site-packages'
+[7.457s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_sensors/bin'
+[7.457s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_sensors/share/ariac_sensors/package.ps1'
+[7.458s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/ariac_sensors/share/ariac_sensors/package.dsv'
+[7.459s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_sensors/share/ariac_sensors/package.sh'
+[7.460s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_sensors/share/ariac_sensors/package.bash'
+[7.460s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_sensors/share/ariac_sensors/package.zsh'
+[7.461s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/ariac_sensors/share/colcon-core/packages/ariac_sensors)
+[7.487s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ariac_plugins)
+[7.487s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_plugins' for CMake module files
+[7.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/ariac_plugins' returned '0': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /overlay_ws/build/ariac_plugins
+[7.488s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_plugins' for CMake config files
+[7.489s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_plugins', 'cmake_prefix_path')
+[7.489s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_plugins/share/ariac_plugins/hook/cmake_prefix_path.ps1'
+[7.490s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_plugins/share/ariac_plugins/hook/cmake_prefix_path.dsv'
+[7.490s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_plugins/share/ariac_plugins/hook/cmake_prefix_path.sh'
+[7.491s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_plugins/lib'
+[7.491s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_plugins', 'ld_library_path_lib')
+[7.491s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_plugins/share/ariac_plugins/hook/ld_library_path_lib.ps1'
+[7.492s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_plugins/share/ariac_plugins/hook/ld_library_path_lib.dsv'
+[7.492s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_plugins/share/ariac_plugins/hook/ld_library_path_lib.sh'
+[7.493s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_plugins/bin'
+[7.493s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_plugins/lib/pkgconfig/ariac_plugins.pc'
+[7.493s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_plugins/lib/python3.10/site-packages'
+[7.493s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_plugins/bin'
+[7.494s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_plugins/share/ariac_plugins/package.ps1'
+[7.495s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/ariac_plugins/share/ariac_plugins/package.dsv'
+[7.495s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_plugins/share/ariac_plugins/package.sh'
+[7.496s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_plugins/share/ariac_plugins/package.bash'
+[7.497s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_plugins/share/ariac_plugins/package.zsh'
+[7.497s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/ariac_plugins/share/colcon-core/packages/ariac_plugins)
+[7.508s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ariac_sensors)
+[7.509s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_sensors' for CMake module files
+[7.510s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_sensors' for CMake config files
+[7.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_sensors', 'cmake_prefix_path')
+[7.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_sensors/share/ariac_sensors/hook/cmake_prefix_path.ps1'
+[7.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_sensors/share/ariac_sensors/hook/cmake_prefix_path.dsv'
+[7.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_sensors/share/ariac_sensors/hook/cmake_prefix_path.sh'
+[7.512s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_sensors/lib'
+[7.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_sensors', 'ld_library_path_lib')
+[7.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_sensors/share/ariac_sensors/hook/ld_library_path_lib.ps1'
+[7.513s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_sensors/share/ariac_sensors/hook/ld_library_path_lib.dsv'
+[7.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_sensors/share/ariac_sensors/hook/ld_library_path_lib.sh'
+[7.514s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_sensors/bin'
+[7.514s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_sensors/lib/pkgconfig/ariac_sensors.pc'
+[7.514s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_sensors/lib/python3.10/site-packages'
+[7.515s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_sensors/bin'
+[7.515s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_sensors/share/ariac_sensors/package.ps1'
+[7.516s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/ariac_sensors/share/ariac_sensors/package.dsv'
+[7.516s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_sensors/share/ariac_sensors/package.sh'
+[7.517s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_sensors/share/ariac_sensors/package.bash'
+[7.517s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_sensors/share/ariac_sensors/package.zsh'
+[7.518s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/ariac_sensors/share/colcon-core/packages/ariac_sensors)
+[7.579s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ariac_plugins)
+[7.580s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_plugins' for CMake module files
+[7.581s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_plugins' for CMake config files
+[7.582s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_plugins', 'cmake_prefix_path')
+[7.582s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_plugins/share/ariac_plugins/hook/cmake_prefix_path.ps1'
+[7.583s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_plugins/share/ariac_plugins/hook/cmake_prefix_path.dsv'
+[7.584s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_plugins/share/ariac_plugins/hook/cmake_prefix_path.sh'
+[7.584s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_plugins/lib'
+[7.584s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_plugins', 'ld_library_path_lib')
+[7.585s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_plugins/share/ariac_plugins/hook/ld_library_path_lib.ps1'
+[7.585s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_plugins/share/ariac_plugins/hook/ld_library_path_lib.dsv'
+[7.586s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_plugins/share/ariac_plugins/hook/ld_library_path_lib.sh'
+[7.586s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_plugins/bin'
+[7.586s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_plugins/lib/pkgconfig/ariac_plugins.pc'
+[7.586s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_plugins/lib/python3.10/site-packages'
+[7.587s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_plugins/bin'
+[7.587s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_plugins/share/ariac_plugins/package.ps1'
+[7.588s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/ariac_plugins/share/ariac_plugins/package.dsv'
+[7.588s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_plugins/share/ariac_plugins/package.sh'
+[7.589s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_plugins/share/ariac_plugins/package.bash'
+[7.589s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_plugins/share/ariac_plugins/package.zsh'
+[7.590s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/ariac_plugins/share/colcon-core/packages/ariac_plugins)
+[7.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/ariac_gui': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/build/ariac_gui/prefix_override:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /overlay_ws/build/ariac_gui/build --no-deps symlink_data
+[8.314s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_gui', 'pythonpath_develop')
+[8.315s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/build/ariac_gui/share/ariac_gui/hook/pythonpath_develop.ps1'
+[8.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/ariac_gui' returned '0': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/build/ariac_gui/prefix_override:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /overlay_ws/build/ariac_gui/build --no-deps symlink_data
+[8.316s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/build/ariac_gui/share/ariac_gui/hook/pythonpath_develop.dsv'
+[8.316s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/build/ariac_gui/share/ariac_gui/hook/pythonpath_develop.sh'
+[8.317s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_gui' for CMake module files
+[8.318s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_gui' for CMake config files
+[8.319s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_gui/lib'
+[8.319s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_gui/bin'
+[8.319s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_gui/lib/pkgconfig/ariac_gui.pc'
+[8.320s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_gui/lib/python3.10/site-packages'
+[8.320s] Level 1:colcon.colcon_core.shell:create_environment_hook('ariac_gui', 'pythonpath')
+[8.320s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_gui/share/ariac_gui/hook/pythonpath.ps1'
+[8.321s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/ariac_gui/share/ariac_gui/hook/pythonpath.dsv'
+[8.321s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/ariac_gui/share/ariac_gui/hook/pythonpath.sh'
+[8.322s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/ariac_gui/bin'
+[8.322s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ariac_gui)
+[8.323s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_gui/share/ariac_gui/package.ps1'
+[8.324s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/ariac_gui/share/ariac_gui/package.dsv'
+[8.324s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_gui/share/ariac_gui/package.sh'
+[8.325s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_gui/share/ariac_gui/package.bash'
+[8.325s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/ariac_gui/share/ariac_gui/package.zsh'
+[8.326s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/ariac_gui/share/colcon-core/packages/ariac_gui)
+[13.703s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/nist_competitor' returned '0': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake /overlay_ws/src/nist_competitor -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/overlay_ws/install/nist_competitor
+[13.704s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/nist_competitor': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /overlay_ws/build/nist_competitor -- -j12 -l12
+[69.488s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/nist_competitor' returned '0': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --build /overlay_ws/build/nist_competitor -- -j12 -l12
+[69.518s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/overlay_ws/build/nist_competitor': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /overlay_ws/build/nist_competitor
+[69.869s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nist_competitor)
+[69.870s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/nist_competitor' for CMake module files
+[69.870s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/overlay_ws/build/nist_competitor' returned '0': CMAKE_PREFIX_PATH=/overlay_ws/install/ariac_msgs:/overlay_ws/install/ariac_sensors:/overlay_ws/install/ariac_plugins:/overlay_ws/install/ariac_moveit_config:/overlay_ws/install/ariac_gazebo:/overlay_ws/install/ariac_description:/overlay_ws/install/ariac_controllers:/overlay_ws/install/ariac_gui:/opt/ros/iron LD_LIBRARY_PATH=/overlay_ws/install/ariac_msgs/lib:/overlay_ws/install/ariac_sensors/lib:/overlay_ws/install/ariac_plugins/lib:/overlay_ws/install/ariac_controllers/lib:/opt/ros/iron/opt/rviz_ogre_vendor/lib:/opt/ros/iron/lib/x86_64-linux-gnu:/opt/ros/iron/lib PYTHONPATH=/overlay_ws/install/ariac_msgs/lib/python3.10/site-packages:/overlay_ws/build/ariac_gui:/overlay_ws/install/ariac_gui/lib/python3.10/site-packages:/overlay_ws/install/ariac_gazebo/lib/python3.10/site-packages:/opt/ros/iron/lib/python3.10/site-packages /usr/bin/cmake --install /overlay_ws/build/nist_competitor
+[69.871s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/nist_competitor' for CMake config files
+[69.871s] Level 1:colcon.colcon_core.shell:create_environment_hook('nist_competitor', 'cmake_prefix_path')
+[69.871s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/nist_competitor/share/nist_competitor/hook/cmake_prefix_path.ps1'
+[69.872s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/nist_competitor/share/nist_competitor/hook/cmake_prefix_path.dsv'
+[69.872s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/nist_competitor/share/nist_competitor/hook/cmake_prefix_path.sh'
+[69.872s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/nist_competitor/lib'
+[69.872s] Level 1:colcon.colcon_core.shell:create_environment_hook('nist_competitor', 'ld_library_path_lib')
+[69.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/nist_competitor/share/nist_competitor/hook/ld_library_path_lib.ps1'
+[69.873s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/nist_competitor/share/nist_competitor/hook/ld_library_path_lib.dsv'
+[69.873s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/nist_competitor/share/nist_competitor/hook/ld_library_path_lib.sh'
+[69.873s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/nist_competitor/bin'
+[69.873s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/nist_competitor/lib/pkgconfig/nist_competitor.pc'
+[69.874s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/nist_competitor/lib/python3.10/site-packages'
+[69.874s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/nist_competitor/bin'
+[69.874s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/nist_competitor/share/nist_competitor/package.ps1'
+[69.874s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/nist_competitor/share/nist_competitor/package.dsv'
+[69.875s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/nist_competitor/share/nist_competitor/package.sh'
+[69.875s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/nist_competitor/share/nist_competitor/package.bash'
+[69.875s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/nist_competitor/share/nist_competitor/package.zsh'
+[69.876s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/nist_competitor/share/colcon-core/packages/nist_competitor)
+[69.912s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(nist_competitor)
+[69.912s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/nist_competitor' for CMake module files
+[69.913s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/nist_competitor' for CMake config files
+[69.914s] Level 1:colcon.colcon_core.shell:create_environment_hook('nist_competitor', 'cmake_prefix_path')
+[69.914s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/nist_competitor/share/nist_competitor/hook/cmake_prefix_path.ps1'
+[69.914s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/nist_competitor/share/nist_competitor/hook/cmake_prefix_path.dsv'
+[69.915s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/nist_competitor/share/nist_competitor/hook/cmake_prefix_path.sh'
+[69.916s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/nist_competitor/lib'
+[69.916s] Level 1:colcon.colcon_core.shell:create_environment_hook('nist_competitor', 'ld_library_path_lib')
+[69.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/nist_competitor/share/nist_competitor/hook/ld_library_path_lib.ps1'
+[69.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/overlay_ws/install/nist_competitor/share/nist_competitor/hook/ld_library_path_lib.dsv'
+[69.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/overlay_ws/install/nist_competitor/share/nist_competitor/hook/ld_library_path_lib.sh'
+[69.918s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/nist_competitor/bin'
+[69.918s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/nist_competitor/lib/pkgconfig/nist_competitor.pc'
+[69.918s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/nist_competitor/lib/python3.10/site-packages'
+[69.919s] Level 1:colcon.colcon_core.environment:checking '/overlay_ws/install/nist_competitor/bin'
+[69.919s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/nist_competitor/share/nist_competitor/package.ps1'
+[69.920s] INFO:colcon.colcon_core.shell:Creating package descriptor '/overlay_ws/install/nist_competitor/share/nist_competitor/package.dsv'
+[69.921s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/nist_competitor/share/nist_competitor/package.sh'
+[69.921s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/nist_competitor/share/nist_competitor/package.bash'
+[69.922s] INFO:colcon.colcon_core.shell:Creating package script '/overlay_ws/install/nist_competitor/share/nist_competitor/package.zsh'
+[69.922s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/overlay_ws/install/nist_competitor/share/colcon-core/packages/nist_competitor)
+[69.923s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[69.923s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[69.923s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[69.923s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[69.933s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[69.933s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[69.933s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[69.933s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[69.938s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.Spawn.ExecFailed: /usr/bin/dbus-launch terminated abnormally without any error message
+[69.938s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[69.939s] INFO:colcon.colcon_core.shell:Creating prefix script '/overlay_ws/install/local_setup.ps1'
+[69.941s] INFO:colcon.colcon_core.shell:Creating prefix util module '/overlay_ws/install/_local_setup_util_ps1.py'
+[69.943s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/overlay_ws/install/setup.ps1'
+[69.946s] INFO:colcon.colcon_core.shell:Creating prefix script '/overlay_ws/install/local_setup.sh'
+[69.947s] INFO:colcon.colcon_core.shell:Creating prefix util module '/overlay_ws/install/_local_setup_util_sh.py'
+[69.948s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/overlay_ws/install/setup.sh'
+[69.951s] INFO:colcon.colcon_core.shell:Creating prefix script '/overlay_ws/install/local_setup.bash'
+[69.951s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/overlay_ws/install/setup.bash'
+[69.954s] INFO:colcon.colcon_core.shell:Creating prefix script '/overlay_ws/install/local_setup.zsh'
+[69.954s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/overlay_ws/install/setup.zsh'
